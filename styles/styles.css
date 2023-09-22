@@ -1,3 +1,7 @@
+main{
+    max-width: 840px;
+}
+
 body{
     font-family: Georgia;
 }
@@ -18,7 +22,7 @@ h1 {
     color: steelblue;
 }
 
-img {
+main img {
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
@@ -27,5 +31,26 @@ img {
 }
 
 p {
-    padding: 10px;
+    padding: 0;
+}
+
+aside {
+    width: 25rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    background-color: #7777AF;
+    color: #000047;
+    text-align: center;
+}
+
+aside img{
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    margin-top: 1rem;
+    border-top: 1px solid #000047;
+    text-align: center;
 }
