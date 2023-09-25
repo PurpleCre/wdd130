@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 main{
     max-width: 840px;
 }
@@ -7,7 +13,7 @@ body{
 }
 
 nav {
-    background-color: steelblue;
+    background-color: #240046;
     padding: 10px;
 }
 
@@ -19,7 +25,7 @@ nav a {
 
 h1 {
     font-family: "Arial Black";
-    color: steelblue;
+    color: #240046;
 }
 
 main img {
@@ -28,6 +34,7 @@ main img {
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 
 p {
@@ -36,11 +43,12 @@ p {
 
 aside {
     width: 25rem;
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1rem;
-    background-color: #7777AF;
-    color: #000047;
+    position: relative;
+    /* margin: 1rem; */
+    /* border: 1px solid rgba(0, 0, 0, 0.2); */
+    /* padding: 1rem; */
+    /* background-color: #7777AF;
+    color: #000047; */
     text-align: center;
 }
 
@@ -49,8 +57,23 @@ aside img{
     height: auto;
 }
 
+aside h2 {
+    position: absolute;
+    top: 10px;
+    left: 140px;
+}
 footer {
     margin-top: 1rem;
     border-top: 1px solid #000047;
     text-align: center;
+}
+
+/* Class Selectors */
+
+.box{
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    background-color: #7777AF;
+    color: #000047;
 }
