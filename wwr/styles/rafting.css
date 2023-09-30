@@ -43,11 +43,8 @@ p {
   color: #05000a
 }
 
-/* Classes */
+/* Classes and IDs*/
 
-.social {
-  text-decoration: none;
-}
 
 .hero div {
   position: relative;
@@ -82,4 +79,8 @@ p {
   float: right;
   width: auto;
   height: 10rem;
+}
+
+.social {
+  text-decoration: none;
 }
