@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
+
+:root {
+  --primary-color: #c77dff;
+  --secondary-color: #240046;
+  --accent1-color: #e0aaff;
+  --accent2-color: #9d4edd;
+
+  --heading-font: "Rock Salt", hand;
+  --paragraph-font: "Original Surfer", sans-serif;
+
+  --nav-background-color: #e0aaff;
+  --nav-link-color: #9d4edd;
+  --nav-hover-link-color: blue;
+  --nav-hover-background-color: #e0aaff;
+}
+* {
+  max-width: 960px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+  color: var(--secondary-color);
+}
+
+body {
+  font-family: var(--paragraph-font);
+  max-width: 960px;
+  padding: 20px;
+}
+
+p {
+  padding: 1rem;
+}
+
+/* Classes */
+
+.social {
+  text-decoration: none;
+}
+
+.hero div {
+  position: relative;
+}
+
+.hero .image {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.hero h1 {
+  position: absolute;
+}
+
+.hero article {
+  position: absolute;
+  top: 300px;
+  text-wrap: wrap;
+}
+
+.hero article img {
+  float: right;
+  width: auto;
+  height: 20rem;
+}
