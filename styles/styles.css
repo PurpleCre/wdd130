@@ -5,7 +5,7 @@
 }
 
 main{
-    max-width: 840px;
+    /* max-width: 840px; */
 }
 
 body{
@@ -15,41 +15,50 @@ body{
 nav {
     background-color: #240046;
     padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
     color: white;
     display: block;
-    padding: 20px;
+    padding: .7rem;
+    text-decoration: none;
+    font-size: .9rem;
+    font-weight: 600;
 }
 
 h1 {
     font-family: "Arial Black";
     color: #240046;
+    border-bottom: solid #000047
 }
 
 main img {
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
-    padding: 2px;
+    padding: 4px;
     box-shadow: 0 0 30px gray;
     float: right;
 }
 
 p {
-    padding: 0;
+    padding: 10px;
+}
+
+main{
+    grid-column: 2/3;
+    margin:.2rem;
 }
 
 aside {
-    width: 25rem;
+    width: 20rem;
     position: relative;
-    /* margin: 1rem; */
-    /* border: 1px solid rgba(0, 0, 0, 0.2); */
-    /* padding: 1rem; */
-    /* background-color: #7777AF;
-    color: #000047; */
     text-align: center;
+    grid-column: 1/2;
+    grid-row: 1/ 2;
 }
 
 aside img{
@@ -60,12 +69,16 @@ aside img{
 aside h2 {
     position: absolute;
     top: 10px;
-    left: 140px;
+    left: 100px;
 }
 footer {
-    margin-top: 1rem;
     border-top: 1px solid #000047;
     text-align: center;
+}
+
+header, footer, .grid{
+    max-width: 840px;
+    margin: 0 auto;
 }
 
 /* Class Selectors */
@@ -76,4 +89,9 @@ footer {
     padding: 2rem;
     background-color: #7777AF;
     color: #000047;
+}
+
+.grid{
+    display: grid;
+    align-items: center;
 }
