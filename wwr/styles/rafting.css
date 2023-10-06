@@ -5,7 +5,7 @@
   --primary-color: #c77dff;
   --secondary-color: #240046;
   --accent1-color: #e0aaff;
-  --accent2-color: #9d4edd;
+  --accent2-color: #9e9eea;
 
   --heading-font: "Rock Salt", hand;
   --paragraph-font: "Original Surfer", sans-serif;
@@ -15,6 +15,7 @@
   --nav-hover-link-color: blue;
   --nav-hover-background-color: #e0aaff;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -38,13 +39,70 @@ body {
   padding: 1rem;
 }
 
+/* logo and nav */
+header {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 7fr;
+}
+
+header img {
+  margin: 0 0.5rem;
+  width: 120px;
+  height: auto;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bolder;
+  border: double 3px #05000a;
+  background-color: var(--secondary-color);
+}
+
+header nav a {
+  color: var(--nav-link-color);
+  text-decoration: none;
+  border-right: double 3px var(--accent1-color);
+  padding-right: 40px;
+}
+
+header nav a:last-of-type {
+  border-right: none;
+}
+/* logo and nav end*/
+
 p {
-  padding: .25rem;
-  color: #05000a
+  padding: 0.25rem;
+  color: #05000a;
+}
+
+figure {
+  display: grid;
+  align-self: baseline;
+  max-width: 120px;
+}
+figcaption {
+  background-color: var(--secondary-color);
+  color: var(--accent1-color);
+  font: var(--paragraph-font);
+  padding: 2px;
+  text-align: center;
+}
+
+footer {
+  display: grid;
+  justify-items: center;
+  background-color: var(--accent2-color);
+  text-align: center;
+  padding: 20px;
+}
+
+footer div{
+  justify-self: last baseline;
 }
 
 /* Classes and IDs*/
-
 
 div.hero {
   position: relative;
@@ -84,4 +142,48 @@ div.hero {
 
 .social {
   text-decoration: none;
+}
+
+#history {
+  display: grid;
+  position: relative;
+  align-items: center;
+  grid-gap: 1px;
+}
+#history h2 {
+  grid-column: 1/7;
+  grid-row: 1/2;
+  text-align: center;
+  grid-gap: 1px;
+}
+#first {
+  grid-column: 1/3;
+  grid-row: 2 / auto;
+  justify-items: start;
+}
+#history img {
+  width: 200px;
+  grid-column: 3/5;
+  grid-row: 2/4;
+  align-content: center;
+}
+#second {
+  grid-column: 5/7;
+  grid-row: 2 / auto;
+}
+
+#adventure {
+  display: grid;
+  align-items: center;
+  border: thin var(--accent1-color) solid;
+  margin-top: 10px;
+  background-color: var(--accent2-color);
+}
+#adventure h2 {
+  grid-column: 1/6;
+  text-align: center;
+}
+#adventure img {
+  width: 180px;
+  height: auto;
 }

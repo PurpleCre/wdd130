@@ -3,10 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-main{
+/* 
+/* main{
     /* max-width: 840px; */
-}
+/* } */ */ */
 
 body{
     font-family: Georgia;
@@ -81,7 +81,7 @@ header, footer, .grid{
     margin: 0 auto;
 }
 
-/* Class Selectors */
+/* Class and id Selectors */
 
 .box{
     margin: 1rem;
