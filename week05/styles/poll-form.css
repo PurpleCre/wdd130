@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rock Salt";
+  font-size: 0.9rem;
+  color: rgb(255, 136, 0);
+  background-color: #e4e4e4;
+}
+
+header {
+  margin: 0 auto;
+  width: 650px;
+}
+
+h1 {
+  margin: 0.8rem;
+  font-size: 1.2rem;
+  color: rgb(24, 0, 24);
+  text-align: center;
+}
+
+form {
+  width: 620px;
+  margin: 0 auto;
+  padding: 0.9rem;
+  border: 1px dashed rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  background: url(../images/crocuses.jpg);
+  display: grid;
+}
+
+fieldset {
+  display: grid;
+  grid-gap: 0.2rem;
+  margin: 0.3rem;
+  padding: 0.4rem;
+  border: 1px solid rgba(89, 1, 124, 0.2);
+}
+
+legend {
+  padding: 0.3rem;
+  color: rgb(255, 196, 0);
+  font-size: large;
+  font-weight: 700;
+}
+
+label,
+input,
+button,
+select,
+textarea {
+  font-family: "Original Surfer";
+  font-size: 0.9rem;
+}
+
+label {
+  text-align: right;
+  padding-right: 5px;
+}
+
+input,
+select,
+textarea {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  vertical-align: bottom;
+}
+
+button {
+  margin: 0.3rem;
+  background-color: rgb(171, 20, 241);
+  color: rgb(255, 196, 0);
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  font-size: 1.2rem;
+}
+
+button:hover {
+  background-color: green;
+}
+
+footer {
+  margin: 1rem auto 0;
+  width: 620px;
+  text-align: center;
+  font-size: .8rem;
+  color: #150025;
+  padding-top: 2px;
+  border-top: 1px dashed #150025;
+  font-family: "Original Surfer";
+}
+
+/*Class Selectors*/
+
+.form-item {
+  display: grid;
+  align-items: center;
+}
+
+.column1 {
+  grid-template-columns: 3fr 1fr;
+  margin: 0 .2rem;
+}
+
+.column2 {
+  grid-template-columns: 1fr 2fr;
+  margin: 0 .2rem;
+}

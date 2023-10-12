@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WDD130 | HTML Form - User Poll</title>
+    <meta name="description" content="Panashe Gonese WDD120 Poll Form" />
+    <meta name="author" content="Panashe Gonese" />
+
+    <link rel="stylesheet" href="styles/poll-form.css">
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <form>
+        <fieldset>
+          <legend>Contact Information</legend>
+          <div class="form-item column2">
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" />
+          </div>
+          <div class="form-item column2">
+            <label for="useremail">Email</label>
+            <input type="email" id="useremail" name="useremail" />
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Questions</legend>
+          <div class="form-item column1">
+            <label for="browser">What is your favorite browser?</label>
+            <select name="browser" id="browser">
+              <option value="operamini">Operamini</option>
+              <option value="chrome">Chrome</option> 
+              <option value="firefox">Firefox</option>
+            </select
+              ><br>
+          </div>
+          <div class="form-item column1">
+            <label for="pet">Do you have a household pet?</label>
+            <input type="checkbox" name="pet" id="pet" /><br>
+          </div>
+            <div class="form-item">
+            <label for="feedback">List the places you have lived:</label>
+          </div>
+          <div class="form-item">
+            <textarea
+              name="feedback"
+              id="feedback"
+              rows="5"
+              placeholder="Roma, Provence, Montgomery"
+            ></textarea>
+          </div>
+        </fieldset>
+        <button type="submit">Submit Poll</button>
+      </form><br>
+    </main>
+    <footer>
+      &copy;2023 | HTML Form - User Poll Activity | Panashe Gonese
+    </footer>
+  </body>
+</html>

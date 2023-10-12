@@ -1,0 +1,1456 @@
+<!DOCTYPE html>
+<!-- saved from url=(0055)https://byui.mobius.cloud/modules/unproctoredTest.Print -->
+<html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+  	<!--  skinSimpleFrame.jsp -->
+	<!--<base href="https://byui.mobius.cloud/">--><base href=".">
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="shortcut icon" href="https://byui.mobius.cloud/skins/default/favicon.ico">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="./Brigham Young University - Idaho -_files/jquery.min.js.download"></script>
+<script src="./Brigham Young University - Idaho -_files/jquery-ui.min.js.download"></script>
+
+
+
+
+<link rel="stylesheet" href="./Brigham Young University - Idaho -_files/jquery-ui.min.css">
+
+<script type="text/javascript" src="./Brigham Young University - Idaho -_files/bootstrap.min.js.download"></script>
+<link rel="stylesheet" href="./Brigham Young University - Idaho -_files/bootstrap.min.css">
+
+<script type="text/javascript" src="./Brigham Young University - Idaho -_files/bootstrap-tour.min.js.download"></script>
+<link rel="stylesheet" href="./Brigham Young University - Idaho -_files/bootstrap-tour.min.css">
+
+<script type="text/javascript" src="./Brigham Young University - Idaho -_files/bootstrap-filestyle.min.js.download"></script>
+
+<script type="text/javascript" src="./Brigham Young University - Idaho -_files/underscore-min.js.download"></script>
+<script type="text/javascript" src="./Brigham Young University - Idaho -_files/backbone-min.js.download"></script>
+<link rel="stylesheet" href="./Brigham Young University - Idaho -_files/font-awesome.min.css">
+
+<script type="text/javascript" src="./Brigham Young University - Idaho -_files/jquery.jplayer.min.js.download"></script>
+
+<script type="text/javascript" src="./Brigham Young University - Idaho -_files/ckeditor.js.download"></script><style>.cke{visibility:hidden;}</style>
+
+<script type="text/javascript" src="./Brigham Young University - Idaho -_files/iframeResizer.min.js.download"></script>
+
+<script type="text/javascript" src="./Brigham Young University - Idaho -_files/iframeResizer.contentWindow.min.js.download"></script>
+
+
+
+<script type="text/javascript" src="./Brigham Young University - Idaho -_files/ace.js.download"></script><style id="ace_editor">.ace_editor {position: relative;overflow: hidden;font: 12px/normal 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;direction: ltr;}.ace_scroller {position: absolute;overflow: hidden;top: 0;bottom: 0;background-color: inherit;-ms-user-select: none;-moz-user-select: none;-webkit-user-select: none;user-select: none;cursor: text;}.ace_content {position: absolute;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;min-width: 100%;}.ace_dragging .ace_scroller:before{position: absolute;top: 0;left: 0;right: 0;bottom: 0;content: '';background: rgba(250, 250, 250, 0.01);z-index: 1000;}.ace_dragging.ace_dark .ace_scroller:before{background: rgba(0, 0, 0, 0.01);}.ace_selecting, .ace_selecting * {cursor: text !important;}.ace_gutter {position: absolute;overflow : hidden;width: auto;top: 0;bottom: 0;left: 0;cursor: default;z-index: 4;-ms-user-select: none;-moz-user-select: none;-webkit-user-select: none;user-select: none;}.ace_gutter-active-line {position: absolute;left: 0;right: 0;}.ace_scroller.ace_scroll-left {box-shadow: 17px 0 16px -16px rgba(0, 0, 0, 0.4) inset;}.ace_gutter-cell {padding-left: 19px;padding-right: 6px;background-repeat: no-repeat;}.ace_gutter-cell.ace_error {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAABOFBMVEX/////////QRswFAb/Ui4wFAYwFAYwFAaWGAfDRymzOSH/PxswFAb/SiUwFAYwFAbUPRvjQiDllog5HhHdRybsTi3/Tyv9Tir+Syj/UC3////XurebMBIwFAb/RSHbPx/gUzfdwL3kzMivKBAwFAbbvbnhPx66NhowFAYwFAaZJg8wFAaxKBDZurf/RB6mMxb/SCMwFAYwFAbxQB3+RB4wFAb/Qhy4Oh+4QifbNRcwFAYwFAYwFAb/QRzdNhgwFAYwFAbav7v/Uy7oaE68MBK5LxLewr/r2NXewLswFAaxJw4wFAbkPRy2PyYwFAaxKhLm1tMwFAazPiQwFAaUGAb/QBrfOx3bvrv/VC/maE4wFAbRPBq6MRO8Qynew8Dp2tjfwb0wFAbx6eju5+by6uns4uH9/f36+vr/GkHjAAAAYnRSTlMAGt+64rnWu/bo8eAA4InH3+DwoN7j4eLi4xP99Nfg4+b+/u9B/eDs1MD1mO7+4PHg2MXa347g7vDizMLN4eG+Pv7i5evs/v79yu7S3/DV7/498Yv24eH+4ufQ3Ozu/v7+y13sRqwAAADLSURBVHjaZc/XDsFgGIBhtDrshlitmk2IrbHFqL2pvXf/+78DPokj7+Fz9qpU/9UXJIlhmPaTaQ6QPaz0mm+5gwkgovcV6GZzd5JtCQwgsxoHOvJO15kleRLAnMgHFIESUEPmawB9ngmelTtipwwfASilxOLyiV5UVUyVAfbG0cCPHig+GBkzAENHS0AstVF6bacZIOzgLmxsHbt2OecNgJC83JERmePUYq8ARGkJx6XtFsdddBQgZE2nPR6CICZhawjA4Fb/chv+399kfR+MMMDGOQAAAABJRU5ErkJggg==");background-repeat: no-repeat;background-position: 2px center;}.ace_gutter-cell.ace_warning {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAmVBMVEX///8AAAD///8AAAAAAABPSzb/5sAAAAB/blH/73z/ulkAAAAAAAD85pkAAAAAAAACAgP/vGz/rkDerGbGrV7/pkQICAf////e0IsAAAD/oED/qTvhrnUAAAD/yHD/njcAAADuv2r/nz//oTj/p064oGf/zHAAAAA9Nir/tFIAAAD/tlTiuWf/tkIAAACynXEAAAAAAAAtIRW7zBpBAAAAM3RSTlMAABR1m7RXO8Ln31Z36zT+neXe5OzooRDfn+TZ4p3h2hTf4t3k3ucyrN1K5+Xaks52Sfs9CXgrAAAAjklEQVR42o3PbQ+CIBQFYEwboPhSYgoYunIqqLn6/z8uYdH8Vmdnu9vz4WwXgN/xTPRD2+sgOcZjsge/whXZgUaYYvT8QnuJaUrjrHUQreGczuEafQCO/SJTufTbroWsPgsllVhq3wJEk2jUSzX3CUEDJC84707djRc5MTAQxoLgupWRwW6UB5fS++NV8AbOZgnsC7BpEAAAAABJRU5ErkJggg==");background-position: 2px center;}.ace_gutter-cell.ace_info {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAAAAAA6mKC9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAJ0Uk5TAAB2k804AAAAPklEQVQY02NgIB68QuO3tiLznjAwpKTgNyDbMegwisCHZUETUZV0ZqOquBpXj2rtnpSJT1AEnnRmL2OgGgAAIKkRQap2htgAAAAASUVORK5CYII=");background-position: 2px center;}.ace_dark .ace_gutter-cell.ace_info {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAJFBMVEUAAAChoaGAgIAqKiq+vr6tra1ZWVmUlJSbm5s8PDxubm56enrdgzg3AAAAAXRSTlMAQObYZgAAAClJREFUeNpjYMAPdsMYHegyJZFQBlsUlMFVCWUYKkAZMxZAGdxlDMQBAG+TBP4B6RyJAAAAAElFTkSuQmCC");}.ace_scrollbar {position: absolute;right: 0;bottom: 0;z-index: 6;}.ace_scrollbar-inner {position: absolute;cursor: text;left: 0;top: 0;}.ace_scrollbar-v{overflow-x: hidden;overflow-y: scroll;top: 0;}.ace_scrollbar-h {overflow-x: scroll;overflow-y: hidden;left: 0;}.ace_print-margin {position: absolute;height: 100%;}.ace_text-input {position: absolute;z-index: 0;width: 0.5em;height: 1em;opacity: 0;background: transparent;-moz-appearance: none;appearance: none;border: none;resize: none;outline: none;overflow: hidden;font: inherit;padding: 0 1px;margin: 0 -1px;text-indent: -1em;-ms-user-select: text;-moz-user-select: text;-webkit-user-select: text;user-select: text;}.ace_text-input.ace_composition {background: inherit;color: inherit;z-index: 1000;opacity: 1;text-indent: 0;}.ace_layer {z-index: 1;position: absolute;overflow: hidden;white-space: pre;height: 100%;width: 100%;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;pointer-events: none;}.ace_gutter-layer {position: relative;width: auto;text-align: right;pointer-events: auto;}.ace_text-layer {font: inherit !important;}.ace_cjk {display: inline-block;text-align: center;}.ace_cursor-layer {z-index: 4;}.ace_cursor {z-index: 4;position: absolute;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;border-left: 2px solid}.ace_slim-cursors .ace_cursor {border-left-width: 1px;}.ace_overwrite-cursors .ace_cursor {border-left-width: 0;border-bottom: 1px solid;}.ace_hidden-cursors .ace_cursor {opacity: 0.2;}.ace_smooth-blinking .ace_cursor {-webkit-transition: opacity 0.18s;transition: opacity 0.18s;}.ace_editor.ace_multiselect .ace_cursor {border-left-width: 1px;}.ace_marker-layer .ace_step, .ace_marker-layer .ace_stack {position: absolute;z-index: 3;}.ace_marker-layer .ace_selection {position: absolute;z-index: 5;}.ace_marker-layer .ace_bracket {position: absolute;z-index: 6;}.ace_marker-layer .ace_active-line {position: absolute;z-index: 2;}.ace_marker-layer .ace_selected-word {position: absolute;z-index: 4;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}.ace_line .ace_fold {-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;display: inline-block;height: 11px;margin-top: -2px;vertical-align: middle;background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAJCAYAAADU6McMAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAJpJREFUeNpi/P//PwOlgAXGYGRklAVSokD8GmjwY1wasKljQpYACtpCFeADcHVQfQyMQAwzwAZI3wJKvCLkfKBaMSClBlR7BOQikCFGQEErIH0VqkabiGCAqwUadAzZJRxQr/0gwiXIal8zQQPnNVTgJ1TdawL0T5gBIP1MUJNhBv2HKoQHHjqNrA4WO4zY0glyNKLT2KIfIMAAQsdgGiXvgnYAAAAASUVORK5CYII="),url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAA3CAYAAADNNiA5AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAACJJREFUeNpi+P//fxgTAwPDBxDxD078RSX+YeEyDFMCIMAAI3INmXiwf2YAAAAASUVORK5CYII=");background-repeat: no-repeat, repeat-x;background-position: center center, top left;color: transparent;border: 1px solid black;border-radius: 2px;cursor: pointer;pointer-events: auto;}.ace_dark .ace_fold {}.ace_fold:hover{background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAJCAYAAADU6McMAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAJpJREFUeNpi/P//PwOlgAXGYGRklAVSokD8GmjwY1wasKljQpYACtpCFeADcHVQfQyMQAwzwAZI3wJKvCLkfKBaMSClBlR7BOQikCFGQEErIH0VqkabiGCAqwUadAzZJRxQr/0gwiXIal8zQQPnNVTgJ1TdawL0T5gBIP1MUJNhBv2HKoQHHjqNrA4WO4zY0glyNKLT2KIfIMAAQsdgGiXvgnYAAAAASUVORK5CYII="),url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAA3CAYAAADNNiA5AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAACBJREFUeNpi+P//fz4TAwPDZxDxD5X4i5fLMEwJgAADAEPVDbjNw87ZAAAAAElFTkSuQmCC");}.ace_tooltip {background-color: #FFF;background-image: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.1));background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.1));border: 1px solid gray;border-radius: 1px;box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);color: black;max-width: 100%;padding: 3px 4px;position: fixed;z-index: 999999;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;cursor: default;white-space: pre;word-wrap: break-word;line-height: normal;font-style: normal;font-weight: normal;letter-spacing: normal;pointer-events: none;}.ace_folding-enabled > .ace_gutter-cell {padding-right: 13px;}.ace_fold-widget {-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;margin: 0 -12px 0 1px;display: none;width: 11px;vertical-align: top;background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAANElEQVR42mWKsQ0AMAzC8ixLlrzQjzmBiEjp0A6WwBCSPgKAXoLkqSot7nN3yMwR7pZ32NzpKkVoDBUxKAAAAABJRU5ErkJggg==");background-repeat: no-repeat;background-position: center;border-radius: 3px;border: 1px solid transparent;cursor: pointer;}.ace_folding-enabled .ace_fold-widget {display: inline-block;   }.ace_fold-widget.ace_end {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAANElEQVR42m3HwQkAMAhD0YzsRchFKI7sAikeWkrxwScEB0nh5e7KTPWimZki4tYfVbX+MNl4pyZXejUO1QAAAABJRU5ErkJggg==");}.ace_fold-widget.ace_closed {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAGCAYAAAAG5SQMAAAAOUlEQVR42jXKwQkAMAgDwKwqKD4EwQ26sSOkVWjgIIHAzPiCgaqiqnJHZnKICBERHN194O5b9vbLuAVRL+l0YWnZAAAAAElFTkSuQmCCXA==");}.ace_fold-widget:hover {border: 1px solid rgba(0, 0, 0, 0.3);background-color: rgba(255, 255, 255, 0.2);box-shadow: 0 1px 1px rgba(255, 255, 255, 0.7);}.ace_fold-widget:active {border: 1px solid rgba(0, 0, 0, 0.4);background-color: rgba(0, 0, 0, 0.05);box-shadow: 0 1px 1px rgba(255, 255, 255, 0.8);}.ace_dark .ace_fold-widget {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHklEQVQIW2P4//8/AzoGEQ7oGCaLLAhWiSwB146BAQCSTPYocqT0AAAAAElFTkSuQmCC");}.ace_dark .ace_fold-widget.ace_end {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAH0lEQVQIW2P4//8/AxQ7wNjIAjDMgC4AxjCVKBirIAAF0kz2rlhxpAAAAABJRU5ErkJggg==");}.ace_dark .ace_fold-widget.ace_closed {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAFCAYAAACAcVaiAAAAHElEQVQIW2P4//+/AxAzgDADlOOAznHAKgPWAwARji8UIDTfQQAAAABJRU5ErkJggg==");}.ace_dark .ace_fold-widget:hover {box-shadow: 0 1px 1px rgba(255, 255, 255, 0.2);background-color: rgba(255, 255, 255, 0.1);}.ace_dark .ace_fold-widget:active {box-shadow: 0 1px 1px rgba(255, 255, 255, 0.2);}.ace_fold-widget.ace_invalid {background-color: #FFB4B4;border-color: #DE5555;}.ace_fade-fold-widgets .ace_fold-widget {-webkit-transition: opacity 0.4s ease 0.05s;transition: opacity 0.4s ease 0.05s;opacity: 0;}.ace_fade-fold-widgets:hover .ace_fold-widget {-webkit-transition: opacity 0.05s ease 0.05s;transition: opacity 0.05s ease 0.05s;opacity:1;}.ace_underline {text-decoration: underline;}.ace_bold {font-weight: bold;}.ace_nobold .ace_bold {font-weight: normal;}.ace_italic {font-style: italic;}.ace_error-marker {background-color: rgba(255, 0, 0,0.2);position: absolute;z-index: 9;}.ace_highlight-marker {background-color: rgba(255, 255, 0,0.2);position: absolute;z-index: 8;}</style><style id="ace-tm">.ace-tm .ace_gutter {background: #f0f0f0;color: #333;}.ace-tm .ace_print-margin {width: 1px;background: #e8e8e8;}.ace-tm .ace_fold {background-color: #6B72E6;}.ace-tm {background-color: #FFFFFF;color: black;}.ace-tm .ace_cursor {color: black;}.ace-tm .ace_invisible {color: rgb(191, 191, 191);}.ace-tm .ace_storage,.ace-tm .ace_keyword {color: blue;}.ace-tm .ace_constant {color: rgb(197, 6, 11);}.ace-tm .ace_constant.ace_buildin {color: rgb(88, 72, 246);}.ace-tm .ace_constant.ace_language {color: rgb(88, 92, 246);}.ace-tm .ace_constant.ace_library {color: rgb(6, 150, 14);}.ace-tm .ace_invalid {background-color: rgba(255, 0, 0, 0.1);color: red;}.ace-tm .ace_support.ace_function {color: rgb(60, 76, 114);}.ace-tm .ace_support.ace_constant {color: rgb(6, 150, 14);}.ace-tm .ace_support.ace_type,.ace-tm .ace_support.ace_class {color: rgb(109, 121, 222);}.ace-tm .ace_keyword.ace_operator {color: rgb(104, 118, 135);}.ace-tm .ace_string {color: rgb(3, 106, 7);}.ace-tm .ace_comment {color: rgb(76, 136, 107);}.ace-tm .ace_comment.ace_doc {color: rgb(0, 102, 255);}.ace-tm .ace_comment.ace_doc.ace_tag {color: rgb(128, 159, 191);}.ace-tm .ace_constant.ace_numeric {color: rgb(0, 0, 205);}.ace-tm .ace_variable {color: rgb(49, 132, 149);}.ace-tm .ace_xml-pe {color: rgb(104, 104, 91);}.ace-tm .ace_entity.ace_name.ace_function {color: #0000A2;}.ace-tm .ace_heading {color: rgb(12, 7, 255);}.ace-tm .ace_list {color:rgb(185, 6, 144);}.ace-tm .ace_meta.ace_tag {color:rgb(0, 22, 142);}.ace-tm .ace_string.ace_regex {color: rgb(255, 0, 0)}.ace-tm .ace_marker-layer .ace_selection {background: rgb(181, 213, 255);}.ace-tm.ace_multiselect .ace_selection.ace_start {box-shadow: 0 0 3px 0px white;border-radius: 2px;}.ace-tm .ace_marker-layer .ace_step {background: rgb(252, 255, 0);}.ace-tm .ace_marker-layer .ace_stack {background: rgb(164, 229, 101);}.ace-tm .ace_marker-layer .ace_bracket {margin: -1px 0 0 -1px;border: 1px solid rgb(192, 192, 192);}.ace-tm .ace_marker-layer .ace_active-line {background: rgba(0, 0, 0, 0.07);}.ace-tm .ace_gutter-active-line {background-color : #dcdcdc;}.ace-tm .ace_marker-layer .ace_selected-word {background: rgb(250, 250, 255);border: 1px solid rgb(200, 200, 250);}.ace-tm .ace_indent-guide {background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAE0lEQVQImWP4////f4bLly//BwAmVgd1/w11/gAAAABJRU5ErkJggg==") right repeat-y;}</style><style>    .error_widget_wrapper {        background: inherit;        color: inherit;        border:none    }    .error_widget {        border-top: solid 2px;        border-bottom: solid 2px;        margin: 5px 0;        padding: 10px 40px;        white-space: pre-wrap;    }    .error_widget.ace_error, .error_widget_arrow.ace_error{        border-color: #ff5a5a    }    .error_widget.ace_warning, .error_widget_arrow.ace_warning{        border-color: #F1D817    }    .error_widget.ace_info, .error_widget_arrow.ace_info{        border-color: #5a5a5a    }    .error_widget.ace_ok, .error_widget_arrow.ace_ok{        border-color: #5aaa5a    }    .error_widget_arrow {        position: absolute;        border: solid 5px;        border-top-color: transparent!important;        border-right-color: transparent!important;        border-left-color: transparent!important;        top: -5px;    }</style>
+
+
+<script type="text/javascript" src="./Brigham Young University - Idaho -_files/bootstrap-table.min.js.download"></script>
+<link rel="stylesheet" href="./Brigham Young University - Idaho -_files/bootstrap-table.min.css">
+
+
+
+
+<script type="text/javascript" src="./Brigham Young University - Idaho -_files/mapleEquationEditor.nocache.js.download"></script><script src="./Brigham Young University - Idaho -_files/DD34F65553089E2B414A779852C48A1D.cache.js.download"></script>
+<script>
+  
+  config_options = {"MathJaxCDN":"https://cdn.mobius.cloud/third-party/locked/mathjax/2.7.2/"};
+</script>
+
+
+
+  
+  
+    <script>
+      var FF_NEW_QUESTION_RENDERING = false;
+    </script>
+  
+
+
+
+
+  
+  
+    <script>
+      var FF_MAPLE_FUNCTION_PROCESSING = false;
+    </script>
+  
+
+
+<script type="text/javascript" src="./Brigham Young University - Idaho -_files/scripts.do"></script>
+
+<script type="text/javascript" src="./Brigham Young University - Idaho -_files/main.js.download"></script>
+<script type="text/javascript" src="./Brigham Young University - Idaho -_files/accessible.js.download"></script>
+<script type="text/javascript" src="./Brigham Young University - Idaho -_files/scannedDocument.js.download"></script>
+
+<script type="text/javascript" src="./Brigham Young University - Idaho -_files/buttons.js.download"></script>
+
+
+<link rel="stylesheet" type="text/css" href="./Brigham Young University - Idaho -_files/MapleCloud.css">
+<link rel="stylesheet" type="text/css" href="./Brigham Young University - Idaho -_files/Toolbar.css">
+
+<link rel="stylesheet" type="text/css" href="./Brigham Young University - Idaho -_files/main.css">
+<link rel="stylesheet" type="text/css" href="./Brigham Young University - Idaho -_files/accessible.css">
+
+
+<link rel="stylesheet" type="text/css" href="./Brigham Young University - Idaho -_files/print.css" media="print">
+<link rel="stylesheet" type="text/css" href="./Brigham Young University - Idaho -_files/eqe.css">
+
+
+<style>
+	#logo, .affix #logo {
+		background-image: url(https://cdn.mobius.cloud/2023.3-010b9e1/client/common/images/titlebar/mobius.png);
+		background-size: 123px 31px;
+	}
+</style>
+
+
+<link rel="stylesheet" type="text/css" href="./Brigham Young University - Idaho -_files/styles.do">
+
+
+
+
+	<title>Brigham Young University - Idaho - 
+		
+	</title>
+
+	
+  <script type="text/javascript">
+	 var title = "";
+  </script><script src="./Brigham Young University - Idaho -_files/MathJax.js.download"></script><link type="text/css" rel="stylesheet" href="./Brigham Young University - Idaho -_files/MapleCloud.css"><link type="text/css" rel="stylesheet" href="./Brigham Young University - Idaho -_files/font-awesome.css"><script src="./Brigham Young University - Idaho -_files/MathJaxApi.js.download"></script><script src="./Brigham Young University - Idaho -_files/maple-custom-web-components.js.download"></script><style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 2px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 2px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: 1em}
+.MathJax_MenuRadioCheck.RTL {right: 1em; left: auto}
+.MathJax_MenuLabel {padding: 2px 2em 4px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #CCCCCC; margin: 4px 1px 0px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: Highlight; color: HighlightText}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style><style type="text/css">.MathJax_Display {text-align: center; margin: 0; position: relative; display: block!important; text-indent: 0; max-width: none; max-height: none; min-width: 0; min-height: 0; width: 100%}
+.MathJax .merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MathJax .MJX-monospace {font-family: monospace}
+.MathJax .MJX-sans-serif {font-family: sans-serif}
+#MathJax_Tooltip {background-color: InfoBackground; color: InfoText; border: 1px solid black; box-shadow: 2px 2px 5px #AAAAAA; -webkit-box-shadow: 2px 2px 5px #AAAAAA; -moz-box-shadow: 2px 2px 5px #AAAAAA; -khtml-box-shadow: 2px 2px 5px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true'); padding: 3px 4px; z-index: 401; position: absolute; left: 0; top: 0; width: auto; height: auto; display: none}
+.MathJax {display: inline; font-style: normal; font-weight: normal; line-height: normal; font-size: 100%; font-size-adjust: none; text-indent: 0; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; padding: 0; margin: 0}
+.MathJax:focus, body :focus .MathJax {display: inline-table}
+.MathJax.MathJax_FullWidth {text-align: center; display: table-cell!important; width: 10000em!important}
+.MathJax img, .MathJax nobr, .MathJax a {border: 0; padding: 0; margin: 0; max-width: none; max-height: none; min-width: 0; min-height: 0; vertical-align: 0; line-height: normal; text-decoration: none}
+img.MathJax_strut {border: 0!important; padding: 0!important; margin: 0!important; vertical-align: 0!important}
+.MathJax span {display: inline; position: static; border: 0; padding: 0; margin: 0; vertical-align: 0; line-height: normal; text-decoration: none}
+.MathJax nobr {white-space: nowrap!important}
+.MathJax img {display: inline!important; float: none!important}
+.MathJax * {transition: none; -webkit-transition: none; -moz-transition: none; -ms-transition: none; -o-transition: none}
+.MathJax_Processing {visibility: hidden; position: fixed; width: 0; height: 0; overflow: hidden}
+.MathJax_Processed {display: none!important}
+.MathJax_ExBox {display: block!important; overflow: hidden; width: 1px; height: 60ex; min-height: 0; max-height: none}
+.MathJax .MathJax_EmBox {display: block!important; overflow: hidden; width: 1px; height: 60em; min-height: 0; max-height: none}
+.MathJax_LineBox {display: table!important}
+.MathJax_LineBox span {display: table-cell!important; width: 10000em!important; min-width: 0; max-width: none; padding: 0; border: 0; margin: 0}
+.MathJax .MathJax_HitBox {cursor: text; background: white; opacity: 0; filter: alpha(opacity=0)}
+.MathJax .MathJax_HitBox * {filter: none; opacity: 1; background: transparent}
+#MathJax_Tooltip * {filter: none; opacity: 1; background: transparent}
+@font-face {font-family: MathJax_Main; src: url('https://cdn.mobius.cloud/third-party/locked/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_Main-Regular.woff?V=2.7.2') format('woff'), url('https://cdn.mobius.cloud/third-party/locked/mathjax/2.7.2/fonts/HTML-CSS/TeX/otf/MathJax_Main-Regular.otf?V=2.7.2') format('opentype')}
+@font-face {font-family: MathJax_Main-bold; src: url('https://cdn.mobius.cloud/third-party/locked/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_Main-Bold.woff?V=2.7.2') format('woff'), url('https://cdn.mobius.cloud/third-party/locked/mathjax/2.7.2/fonts/HTML-CSS/TeX/otf/MathJax_Main-Bold.otf?V=2.7.2') format('opentype')}
+@font-face {font-family: MathJax_Main-italic; src: url('https://cdn.mobius.cloud/third-party/locked/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_Main-Italic.woff?V=2.7.2') format('woff'), url('https://cdn.mobius.cloud/third-party/locked/mathjax/2.7.2/fonts/HTML-CSS/TeX/otf/MathJax_Main-Italic.otf?V=2.7.2') format('opentype')}
+@font-face {font-family: MathJax_Math-italic; src: url('https://cdn.mobius.cloud/third-party/locked/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_Math-Italic.woff?V=2.7.2') format('woff'), url('https://cdn.mobius.cloud/third-party/locked/mathjax/2.7.2/fonts/HTML-CSS/TeX/otf/MathJax_Math-Italic.otf?V=2.7.2') format('opentype')}
+@font-face {font-family: MathJax_Caligraphic; src: url('https://cdn.mobius.cloud/third-party/locked/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_Caligraphic-Regular.woff?V=2.7.2') format('woff'), url('https://cdn.mobius.cloud/third-party/locked/mathjax/2.7.2/fonts/HTML-CSS/TeX/otf/MathJax_Caligraphic-Regular.otf?V=2.7.2') format('opentype')}
+@font-face {font-family: MathJax_Size1; src: url('https://cdn.mobius.cloud/third-party/locked/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_Size1-Regular.woff?V=2.7.2') format('woff'), url('https://cdn.mobius.cloud/third-party/locked/mathjax/2.7.2/fonts/HTML-CSS/TeX/otf/MathJax_Size1-Regular.otf?V=2.7.2') format('opentype')}
+@font-face {font-family: MathJax_Size2; src: url('https://cdn.mobius.cloud/third-party/locked/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_Size2-Regular.woff?V=2.7.2') format('woff'), url('https://cdn.mobius.cloud/third-party/locked/mathjax/2.7.2/fonts/HTML-CSS/TeX/otf/MathJax_Size2-Regular.otf?V=2.7.2') format('opentype')}
+@font-face {font-family: MathJax_Size3; src: url('https://cdn.mobius.cloud/third-party/locked/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_Size3-Regular.woff?V=2.7.2') format('woff'), url('https://cdn.mobius.cloud/third-party/locked/mathjax/2.7.2/fonts/HTML-CSS/TeX/otf/MathJax_Size3-Regular.otf?V=2.7.2') format('opentype')}
+@font-face {font-family: MathJax_Size4; src: url('https://cdn.mobius.cloud/third-party/locked/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_Size4-Regular.woff?V=2.7.2') format('woff'), url('https://cdn.mobius.cloud/third-party/locked/mathjax/2.7.2/fonts/HTML-CSS/TeX/otf/MathJax_Size4-Regular.otf?V=2.7.2') format('opentype')}
+.mwEquationEditor.editor .MathJax_Display:focus, .mwEquationEditor.editor .MathJax:focus, .mathEditor .toolbarTable .MathJax:focus, .mathEditor .toolbarTable .MathJax_Display:focus {outline: none; display: initial !important}
+.MathJax .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style></head>
+  
+  
+  
+  <body id="skinSimpleFrame" data-new-gr-c-s-check-loaded="14.1130.0" data-gr-ext-installed="" style="margin: 0px;"><div style="visibility: hidden; overflow: hidden; position: absolute; top: 0px; height: 1px; width: auto; padding: 0px; border: 0px; margin: 0px; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal;"><div id="MathJax_Hidden"></div></div><div id="MathJax_Message" style="display: none;"></div>
+			
+
+<style>
+      @import URL("https://byui.mobius.cloud/modules/skin/css/print.css");
+
+</style>
+
+<script language="Javascript">
+	var baseURL = "https://byui.mobius.cloud/";
+</script>
+
+
+<script language="Javascript">
+  var controls;
+  
+  function onLoad() {
+    controls = window.open(getBaseURL() + 'modules/configureTest.PrintControlbar', 'controlWindow', 'resizable=yes,toolbar=no,scrollbars=no,width=240,height=100');
+    controls.focus();
+  }
+  
+  document.body.onload = onLoad;
+</script>
+
+<table width="100%">
+  <tbody><tr>
+    <td align="left">Online Homework System</td>
+    <td align="right">
+      Assignment Worksheet<br>
+      <font size="-1"><i>10/7/23 - 12:22:49 PM MDT</i></font>
+    </td>
+    <td>&nbsp;</td>
+  </tr>
+</tbody></table>
+
+<p>
+
+</p><table width="100%" border="0">
+  <tbody><tr>
+    <td nowrap=""><b>Name:</b></td>
+    <td width="50%" nowrap="">____________________________</td>
+    <td nowrap=""><b>Class:</b></td>
+    <td width="50%"><tt>Math for the Real World: Section B2 (FA23)</tt></td>
+  </tr>
+  <tr>
+    <td nowrap=""><b>Class #:</b></td>
+    <td nowrap="">____________________________</td>
+    <td nowrap=""><b>Section #:</b></td>
+    <td nowrap="">____________________________</td>
+  </tr>
+  <tr>
+    <td nowrap=""><b>Instructor:</b></td>
+    <td width="50%"><tt>Tim Morse</tt></td>
+    <td nowrap=""><b>Assignment:</b></td>
+    <td width="50%"><tt>Lesson 5 Homework</tt></td>
+  </tr>
+</tbody></table>
+
+<p>
+
+
+
+</p><p></p><hr><p>
+
+</p><table width="100%">
+  <tbody><tr><td valign="top"><br><b>Question 1: (2 points)</b><br><br>
+<p><span style="color:#000000;">Erik uses his van for work and&nbsp;must fill it up with gas once each week. He recorded the price of each fill-up for the past ten weeks.</span></p>
+
+<p><span style="color:#000000;">Copy and paste the following numbers into Excel&nbsp;to answer the questions below.</span></p>
+
+<table border="1" cellpadding="0" cellspacing="0" height="262" width="232">
+	<thead>
+		<tr height="20">
+			<th height="20" scope="col" style="text-align: center;" width="30"><span style="color:#000000;">Week</span></th>
+			<th scope="col" style="text-align: center;" width="43"><span style="color:#000000;">Price to Fill Up</span></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">1</span></td>
+			<td style="text-align: center;"><span style="color:#000000;">34.81</span></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">2</span></td>
+			<td style="text-align: center;"><span style="color:#000000;">33.36</span></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">3</span></td>
+			<td style="text-align: center;"><span style="color:#000000;">35.44</span></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">4</span></td>
+			<td style="text-align: center;"><span style="color:#000000;">33.7</span></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">5</span></td>
+			<td style="text-align: center;"><span style="color:#000000;">33.61</span></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">6</span></td>
+			<td style="text-align: center;"><span style="color:#000000;">34.54</span></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">7</span></td>
+			<td style="text-align: center;"><span style="color:#000000;">34.93</span></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">8</span></td>
+			<td style="text-align: center;"><span style="color:#000000;">31.48</span></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">9</span></td>
+			<td style="text-align: center;"><span style="color:#000000;">33.22</span></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">10</span></td>
+			<td style="text-align: center;"><span style="color:#000000;">34.83</span></td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#000000;">How much money does Erik typically pay to fill up his van?</span></p>
+
+<p><span style="color:#000000;">$&nbsp;____________&nbsp;</span></p>
+
+<p><span style="color:#000000;">(Round to the nearest cent.)</span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#000000;">What is the standard deviation of the cost of a fill-up?</span></p>
+
+<p><span style="color:#000000;">$&nbsp;____________&nbsp; </span></p>
+
+<p><span style="color:#000000;">(Round to the nearest cent.)</span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#000000;">What does this standard deviation tell us about the cost of&nbsp;Erik's fill-ups?</span></p>
+
+<table>
+<tbody><tr>
+<td width="40"></td><td><b>(a)</b></td><td><p>pretty consistent because the standard deviation is relatively small.</p>
+</td></tr>
+<tr>
+<td width="40"></td><td><b>(b)</b></td><td><p>all over the place because the standard deviation is relatively large.</p>
+</td></tr>
+</tbody></table>
+
+
+<p><span style="color:#000000;">&nbsp;</span></p>
+
+<p><span style="color:#000000;">Based on these ten weeks, the least Erik paid was &nbsp;</span></p>
+
+<p><span style="color:#000000;">____________ </span></p>
+
+<p><span style="color:#000000;">and the most he paid was &nbsp;</span></p>
+
+<p><span style="color:#000000;">____________ .</span></p>
+
+<p>&nbsp;</p>
+<br><br></td></tr>
+<tr><td><div style="height: 200; border-left: thin solid #000000;"></div></td></tr>
+<tr><td><hr></td></tr>
+<tr><td valign="top"><br><b>Question 2: (2 points)</b><br><br>
+<p><span style="color:#000000;">Suppose 15&nbsp;students took an exam and their scores are in the chart below. Type (or copy and paste) the following numbers into Excel and calculate the 80<span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-1-Frame" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mrow&gt;&lt;mi mathvariant=&quot;italic&quot;&gt;th&lt;/mi&gt;&lt;/mrow&gt;&lt;/math&gt;" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-1" style="width: 1.184em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.976em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.184em, 1000.98em, 2.295em, -999.997em); top: -2.08em; left: 0em;"><span class="mrow" id="MathJax-Span-2"><span class="mrow" id="MathJax-Span-3"><span class="mi" id="MathJax-Span-4" style="font-family: MathJax_Math-italic;">th</span></span></span><span style="display: inline-block; width: 0px; height: 2.087em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.079em; border-left: 0px solid; width: 0px; height: 1.004em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi mathvariant="italic">th</mi></mrow></math></span></span><script type="math/mml" id="MathJax-Element-1"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow> <mi mathvariant="italic">th</mi> </mrow></math></script>&nbsp;percentile of these exam scores.</span></p>
+
+<p>&nbsp;</p>
+
+<table border="1" cellpadding="0" cellspacing="0" style="width:200px;" width="107">
+	<thead>
+		<tr height="20">
+			<th height="20" scope="col" style="text-align: center;" width="64"><span style="color:#000000;">Student ID</span></th>
+			<th scope="col" style="text-align: center;" width="43"><span style="color:#000000;">Exam Score</span></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">1</span></td>
+			<td style="text-align: center;"><span style="color:#000000;">79.2</span></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">2</span></td>
+			<td style="text-align: center;"><span style="color:#000000;">58</span></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">3</span></td>
+			<td style="text-align: center;"><span style="color:#000000;">96.1</span></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">4</span></td>
+			<td style="text-align: center;"><span style="color:#000000;">86.5</span></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">5</span></td>
+			<td style="text-align: center;"><span style="color:#000000;">91.5</span></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">6</span></td>
+			<td style="text-align: center;"><span style="color:#000000;">70.1</span></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">7</span></td>
+			<td style="text-align: center;"><span style="color:#000000;">49.9</span></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">8</span></td>
+			<td style="text-align: center;"><span style="color:#000000;">53.9</span></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">9</span></td>
+			<td style="text-align: center;"><span style="color:#000000;">55.9</span></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">10</span></td>
+			<td style="text-align: center;"><span style="color:#000000;">65.2</span></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">11</span></td>
+			<td style="text-align: center;"><span style="color:#000000;">61.2</span></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">12</span></td>
+			<td style="text-align: center;"><span style="color:#000000;">94.9</span></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">13</span></td>
+			<td style="text-align: center;"><span style="color:#000000;">69.9</span></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">14</span></td>
+			<td style="text-align: center;"><span style="color:#000000;">59.1</span></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">15</span></td>
+			<td style="text-align: center;"><span style="color:#000000;">66.8</span></td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width:300px;">
+	<tbody>
+		<tr>
+			<td style="text-align: center;"><span style="color:#000000;">80<span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-2-Frame" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mrow&gt;&lt;mi mathvariant=&quot;italic&quot;&gt;th&lt;/mi&gt;&lt;/mrow&gt;&lt;/math&gt;" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-5" style="width: 1.184em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.976em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.184em, 1000.98em, 2.295em, -999.997em); top: -2.08em; left: 0em;"><span class="mrow" id="MathJax-Span-6"><span class="mrow" id="MathJax-Span-7"><span class="mi" id="MathJax-Span-8" style="font-family: MathJax_Math-italic;">th</span></span></span><span style="display: inline-block; width: 0px; height: 2.087em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.079em; border-left: 0px solid; width: 0px; height: 1.004em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi mathvariant="italic">th</mi></mrow></math></span></span><script type="math/mml" id="MathJax-Element-2"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow> <mi mathvariant="italic">th</mi> </mrow></math></script>&nbsp;percentile</span></td>
+			<td><span style="color:#000000;">&nbsp;____________&nbsp;</span></td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#000000;">Of the 15&nbsp;students, there were&nbsp;</span></p>
+
+<p><span style="color:#000000;">____________&nbsp;students </span></p>
+
+<p><span style="color:#000000;">that scored higher than the 80<em>th</em> percentile, which turns out to be &nbsp;</span></p>
+
+<p><span style="color:#000000;">____________ % of the students.</span></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+<br><br></td></tr>
+<tr><td><div style="height: 200; border-left: thin solid #000000;"></div></td></tr>
+<tr><td><hr></td></tr>
+<tr><td valign="top"><br><b>Question 3: (1 point)</b><br><br>
+<p><span style="color:#000000;">Suppose that the shoe sizes from the last 15 bowlers at a particular bowling alley are listed the chart below. Compute the mode of these numbers to answer the following questions.</span></p>
+
+<table border="1" cellpadding="0" cellspacing="0" style="width:200px;" width="107">
+	<thead>
+		<tr height="20">
+			<th height="20" scope="col" style="text-align: center;" width="64"><span style="color:#000000;">Bowler ID</span></th>
+			<th scope="col" style="text-align: center;" width="43"><span style="color:#000000;">Shoe Size</span></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">1</span></td>
+			<td style="text-align: center;"><font color="#000000">7</font></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">2</span></td>
+			<td style="text-align: center;"><font color="#000000">11</font></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">3</span></td>
+			<td style="text-align: center;"><font color="#000000">8.5</font></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">4</span></td>
+			<td style="text-align: center;"><font color="#000000">8.5</font></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">5</span></td>
+			<td style="text-align: center;"><font color="#000000">10</font></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">6</span></td>
+			<td style="text-align: center;"><font color="#000000">7.5</font></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">7</span></td>
+			<td style="text-align: center;"><font color="#000000">10</font></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">8</span></td>
+			<td style="text-align: center;"><font color="#000000">11</font></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">9</span></td>
+			<td style="text-align: center;"><font color="#000000">10</font></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">10</span></td>
+			<td style="text-align: center;"><font color="#000000">11</font></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">11</span></td>
+			<td style="text-align: center;"><font color="#000000">9.5</font></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">12</span></td>
+			<td style="text-align: center;"><font color="#000000">9.5</font></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">13</span></td>
+			<td style="text-align: center;"><font color="#000000">9.5</font></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">14</span></td>
+			<td style="text-align: center;"><font color="#000000">10</font></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">15</span></td>
+			<td style="text-align: center;">
+			<p><font color="#000000">7.5</font></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;
+</p><table border="1" cellpadding="1" cellspacing="1" style="width:300px;">
+	<tbody>
+		<tr>
+			<td style="text-align: center;"><span style="color:#000000;">Mode</span></td>
+			<td><span style="color:#000000;">&nbsp;____________&nbsp;</span></td>
+		</tr>
+	</tbody>
+</table>
+<p></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#000000;">How would knowing the mode of shoe size rentals help the bowling ally?</span></p>
+
+<table>
+<tbody><tr>
+<td width="40"></td><td><b>(a)</b></td><td><p>This would tell them how many people are coming into the bowling ally each day.</p></td></tr>
+<tr>
+<td width="40"></td><td><b>(b)</b></td><td><p>This would allow them to get rid of all the other sizes of shoes because only the modal shoe size is needed to serve all of the customers.</p></td></tr>
+<tr>
+<td width="40"></td><td><b>(c)</b></td><td><p>This would inform them as to which shoe size is rented the most frequently.</p></td></tr>
+</tbody></table>
+
+
+<p><span style="color:#000000;">&nbsp;</span></p>
+
+<p>&nbsp;</p>
+<br><br></td></tr>
+<tr><td><div style="height: 200; border-left: thin solid #000000;"></div></td></tr>
+<tr><td><hr></td></tr>
+<tr><td valign="top"><br><b>Question 4: (2 points)</b><br><br>
+<p><span style="color:#000000;">Naomi recorded the amount of money she spent the last 15 times she went shopping for groceries.</span></p>
+
+<p><span style="color:#000000;">Copy and paste these numbers into Excel to answer the questions below.</span></p>
+
+<table border="1" cellpadding="0" cellspacing="0" style="width:200px;" width="107">
+	<thead>
+		<tr height="20">
+			<th height="20" scope="col" style="text-align: center;" width="64"><span style="color:#000000;">Shopping Trip</span></th>
+			<th scope="col" style="text-align: center;" width="43"><span style="color:#000000;">Amount</span></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">1</span></td>
+			<td style="text-align: center;"><span style="color:#000000;">62.08</span></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">2</span></td>
+			<td style="text-align: center;"><span style="color:#000000;">57.93</span></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">3</span></td>
+			<td style="text-align: center;"><span style="color:#000000;">30.02</span></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">4</span></td>
+			<td style="text-align: center;"><span style="color:#000000;">59.65</span></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">5</span></td>
+			<td style="text-align: center;"><span style="color:#000000;">53.29</span></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">6</span></td>
+			<td style="text-align: center;"><span style="color:#000000;">35.84</span></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">7</span></td>
+			<td style="text-align: center;"><span style="color:#000000;">42.84</span></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">8</span></td>
+			<td style="text-align: center;"><span style="color:#000000;">34.95</span></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">9</span></td>
+			<td style="text-align: center;"><span style="color:#000000;">36.5</span></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">10</span></td>
+			<td style="text-align: center;"><span style="color:#000000;">114.74</span></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">11</span></td>
+			<td style="text-align: center;"><span style="color:#000000;">61.95</span></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">12</span></td>
+			<td style="text-align: center;"><span style="color:#000000;">32.83</span></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">13</span></td>
+			<td style="text-align: center;"><span style="color:#000000;">39.31</span></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">14</span></td>
+			<td style="text-align: center;"><span style="color:#000000;">30.89</span></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;"><span style="color:#000000;">15</span></td>
+			<td style="text-align: center;"><span style="color:#000000;">56.46</span></td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#000000;">What was the minimum, the maximum, the median, and the mean amount Naomi spent on groceries?</span></p>
+
+<p><span style="color:#000000;">(Round all answers to the nearest cent.)</span></p>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width:200px;">
+	<tbody>
+		<tr>
+			<td style="text-align: center;"><span style="color:#000000;">Minimum</span></td>
+			<td style="text-align: center;"><span style="color:#000000;">&nbsp;____________</span></td>
+		</tr>
+		<tr>
+			<td style="text-align: center;"><span style="color:#000000;">Median</span></td>
+			<td style="text-align: center;"><span style="color:#000000;">&nbsp;____________</span></td>
+		</tr>
+		<tr>
+			<td style="text-align: center;"><span style="color:#000000;">Mean</span></td>
+			<td style="text-align: center;"><span style="color:#000000;">&nbsp;____________</span></td>
+		</tr>
+		<tr>
+			<td style="text-align: center;"><span style="color:#000000;">Maximum</span></td>
+			<td style="text-align: center;"><span style="color:#000000;">&nbsp;____________</span></td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#000000;">Identify which of the following numbers are the most&nbsp;suited to the applications described below.</span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#000000;">This number is the greatest amount Naomi spent on groceries.&nbsp;</span></p>
+
+<p>Minimum&nbsp;</p>
+[&nbsp;&nbsp;]&nbsp;&nbsp;<p>Maximum</p>
+[&nbsp;&nbsp;]&nbsp;&nbsp;<p>Mean</p>
+[&nbsp;&nbsp;]&nbsp;&nbsp;<p>Median</p>
+[&nbsp;&nbsp;]&nbsp;&nbsp;
+
+<p>&nbsp;</p>
+
+<p><span style="color:#000000;">This number would help Naomi know how much to budget for each shopping trip. Sometimes she would spend more, usually she would spend less, but over time this amount would cover her spending needs.</span></p>
+
+<p>Minimum&nbsp;</p>
+[&nbsp;&nbsp;]&nbsp;&nbsp;<p>Maximum</p>
+[&nbsp;&nbsp;]&nbsp;&nbsp;<p>Mean</p>
+[&nbsp;&nbsp;]&nbsp;&nbsp;<p>Median</p>
+[&nbsp;&nbsp;]&nbsp;&nbsp;
+
+<p>&nbsp;</p>
+
+<p><span style="color:#000000;">This number is the least amount Naomi spent on groceries.</span></p>
+
+<p>Minimum&nbsp;</p>
+[&nbsp;&nbsp;]&nbsp;&nbsp;<p>Maximum</p>
+[&nbsp;&nbsp;]&nbsp;&nbsp;<p>Mean</p>
+[&nbsp;&nbsp;]&nbsp;&nbsp;<p>Median</p>
+[&nbsp;&nbsp;]&nbsp;&nbsp;
+
+<p>&nbsp;</p>
+
+<p><span style="color:#000000;">This number would help Naomi know what she typically spends on groceries, even though she sometimes splurges.</span></p>
+
+<p>Minimum&nbsp;</p>
+[&nbsp;&nbsp;]&nbsp;&nbsp;<p>Maximum</p>
+[&nbsp;&nbsp;]&nbsp;&nbsp;<p>Mean</p>
+[&nbsp;&nbsp;]&nbsp;&nbsp;<p>Median</p>
+[&nbsp;&nbsp;]&nbsp;&nbsp;
+
+<p>&nbsp;</p>
+<br><br></td></tr>
+<tr><td><div style="height: 200; border-left: thin solid #000000;"></div></td></tr>
+<tr><td><hr></td></tr>
+<tr><td valign="top"><br><b>Question 5: (2 points)</b><br><br>
+<p>Nyle is trying to plan out a monthly grocery budget for his soon-to-be first year of college. He asked four friends that currently attend college how much they spend on groceries each month. His friends state that they spend right around $249, $249, $290, and $393 a month, respectively.</p>
+
+<p>&nbsp;</p>
+
+<p>Calculate the following summaries of what his friends spend on groceries per month.</p>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width:200px;">
+	<tbody>
+		<tr>
+			<td>Mean</td>
+			<td><span>&nbsp;</span>____________</td>
+		</tr>
+		<tr>
+			<td>Median</td>
+			<td><span>&nbsp;</span>____________</td>
+		</tr>
+		<tr>
+			<td>Mode</td>
+			<td><span>&nbsp;</span>____________</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p>Identify which measure of center would be the most suited to the applications described below.</p>
+
+<p>&nbsp;</p>
+
+<p>This number would be the best number to use to plan out Nyle's budget because it gives a number where half of his friends spend more and half of his friends spend less.&nbsp;</p>
+
+<p>Mean</p>
+[&nbsp;&nbsp;]&nbsp;&nbsp;<p>Median</p>
+[&nbsp;&nbsp;]&nbsp;&nbsp;<p>Mode</p>
+[&nbsp;&nbsp;]&nbsp;&nbsp;
+
+<p><span>&nbsp;</span></p>
+
+<p>This number shows&nbsp;the most common amount being spent per month on groceries by his friends. It would be a good number to use for his budget if he wanted to do the most popular thing.</p>
+
+<p>Mean</p>
+[&nbsp;&nbsp;]&nbsp;&nbsp;<p>Median</p>
+[&nbsp;&nbsp;]&nbsp;&nbsp;<p>Mode</p>
+[&nbsp;&nbsp;]&nbsp;&nbsp;
+
+<p>&nbsp;</p>
+
+<p>Using this number to plan out Nyle's budget might put him at the high end of a grocery budget because one friend spends much more than the others spend.</p>
+
+<p>Mean</p>
+[&nbsp;&nbsp;]&nbsp;&nbsp;<p>Median</p>
+[&nbsp;&nbsp;]&nbsp;&nbsp;<p>Mode</p>
+[&nbsp;&nbsp;]&nbsp;&nbsp;
+<br><br></td></tr>
+<tr><td><div style="height: 200; border-left: thin solid #000000;"></div></td></tr>
+<tr><td><hr></td></tr>
+<tr><td valign="top"><br><b>Question 6: (1 point)</b><br><br>
+<p>An article reported, “the record for the longest pregnancy that resulted in a live birth belongs to Beulah Hunter, a 25-year-old woman from Los Angeles… a staggering 375 days.” Note that the average pregnancy is 285 days, more commonly known as 9 months.</p>
+
+<p>&nbsp;</p>
+
+<p>The number 375 in the above statement is an example of a _____________.&nbsp;</p>
+
+<table>
+<tbody><tr>
+<td width="40"></td><td><b>(a)</b></td><td><p>Minimum</p></td></tr>
+<tr>
+<td width="40"></td><td><b>(b)</b></td><td><p>Mean</p></td></tr>
+<tr>
+<td width="40"></td><td><b>(c)</b></td><td><p>Standard Deviation</p></td></tr>
+<tr>
+<td width="40"></td><td><b>(d)</b></td><td><p>Median</p></td></tr>
+<tr>
+<td width="40"></td><td><b>(e)</b></td><td><p>Mode</p></td></tr>
+<tr>
+<td width="40"></td><td><b>(f)</b></td><td><p>Maximum</p></td></tr>
+</tbody></table>
+
+
+<p><span>&nbsp;</span></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+<br><br></td></tr>
+<tr><td><div style="height: 200; border-left: thin solid #000000;"></div></td></tr>
+<tr><td><hr></td></tr>
+<tr><td valign="top"><br><b>Question 7: (1 point)</b><br><br>
+<p>No value in a dataset can ever be smaller than the _____________ value of the dataset.</p>
+
+<p>&nbsp;</p>
+
+<table>
+<tbody><tr>
+<td width="40"></td><td><b>(a)</b></td><td><p>Median</p></td></tr>
+<tr>
+<td width="40"></td><td><b>(b)</b></td><td><p>Mean</p></td></tr>
+<tr>
+<td width="40"></td><td><b>(c)</b></td><td><p>Percentile</p></td></tr>
+<tr>
+<td width="40"></td><td><b>(d)</b></td><td><p>Mode</p></td></tr>
+<tr>
+<td width="40"></td><td><b>(e)</b></td><td><p>Standard Deviation</p></td></tr>
+<tr>
+<td width="40"></td><td><b>(f)</b></td><td><p>Minimum</p></td></tr>
+<tr>
+<td width="40"></td><td><b>(g)</b></td><td><p>Maximum</p></td></tr>
+</tbody></table>
+
+
+<p><span>&nbsp;</span></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+<br><br></td></tr>
+<tr><td><div style="height: 200; border-left: thin solid #000000;"></div></td></tr>
+<tr><td><hr></td></tr>
+<tr><td valign="top"><br><b>Question 8: (1 point)</b><br><br>
+<p>Roger Bannister&nbsp;became the first human to ever run a mile in less than 4 minutes on 6 May 1954.</p>
+
+<p>The value of 4 minutes in this example represents the ______________ time to run a mile up to that point in time.</p>
+
+<table>
+<tbody><tr>
+<td width="40"></td><td><b>(a)</b></td><td><p>Standard Deviation</p></td></tr>
+<tr>
+<td width="40"></td><td><b>(b)</b></td><td><p>Median</p></td></tr>
+<tr>
+<td width="40"></td><td><b>(c)</b></td><td><p>Mean</p></td></tr>
+<tr>
+<td width="40"></td><td><b>(d)</b></td><td><p>Percentile</p></td></tr>
+<tr>
+<td width="40"></td><td><b>(e)</b></td><td><p>Mode</p></td></tr>
+<tr>
+<td width="40"></td><td><b>(f)</b></td><td><p>Minimum</p></td></tr>
+<tr>
+<td width="40"></td><td><b>(g)</b></td><td><p>Maximum</p></td></tr>
+</tbody></table>
+
+
+<p><span>&nbsp;</span></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p><br><br></td></tr>
+<tr><td><div style="height: 200; border-left: thin solid #000000;"></div></td></tr>
+<tr><td><hr></td></tr>
+<tr><td valign="top"><br><b>Question 9: (1 point)</b><br><br>
+<p>On one day, the ten most popular YouTube videos showed a shortest running time of 42 seconds and a longest time of 9 minutes and 15 seconds. The average length (mean) was&nbsp;reported at 4 minutes and 20 seconds. The median running time was a little less than the mean running time. What is the combined running&nbsp;time of all 10 videos?</p>
+
+<p>(Hint: consider how the mean is calculated)</p>
+
+<p>&nbsp;</p>
+
+<p><span>&nbsp;</span>____________<span>&nbsp;</span>minutes<span>&nbsp;</span>____________<span>&nbsp;</span>seconds</p>
+<br><br></td></tr>
+<tr><td><div style="height: 200; border-left: thin solid #000000;"></div></td></tr>
+<tr><td><hr></td></tr>
+<tr><td valign="top"><br><b>Question 10: (2 points)</b><br><br>
+<p>The following numbers are representative of the heights in inches of eight married couples at BYU-Idaho .</p>
+
+<p>Copy and paste these numbers into Excel. Use them to answer the questions below.</p>
+
+<p>&nbsp;</p>
+
+<table border="1" cellpadding="0" cellspacing="0" style="width:350px;" width="193">
+	<thead>
+		<tr height="20">
+			<th height="20" scope="col" style="width: 80px; text-align: center;">Husband</th>
+			<th scope="col" style="text-align: center; width: 80px;">Height (in)</th>
+			<th scope="col" style="text-align: center; width: 80px;">Wife</th>
+			<th scope="col" style="text-align: center; width: 80px;">Height (in)</th>
+			<th scope="col" style="text-align: center; width: 180px;">Inches the Husband is Taller than His Wife</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr height="20">
+			<td height="20" style="text-align: center;">1</td>
+			<td style="text-align: center;">74</td>
+			<td style="text-align: center;">1</td>
+			<td style="text-align: center;">65</td>
+			<td style="text-align: center;">9</td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;">2</td>
+			<td style="text-align: center;">67</td>
+			<td style="text-align: center;">2</td>
+			<td style="text-align: center;">65</td>
+			<td style="text-align: center;">2</td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;">3</td>
+			<td style="text-align: center;">68</td>
+			<td style="text-align: center;">3</td>
+			<td style="text-align: center;">60</td>
+			<td style="text-align: center;"><span>&nbsp;</span>8<span> </span></td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;">4</td>
+			<td style="text-align: center;">68</td>
+			<td style="text-align: center;">4</td>
+			<td style="text-align: center;">63</td>
+			<td style="text-align: center;">5</td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;">5</td>
+			<td style="text-align: center;">66</td>
+			<td style="text-align: center;">5</td>
+			<td style="text-align: center;">66</td>
+			<td style="text-align: center;">0</td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;">6</td>
+			<td style="text-align: center;">67</td>
+			<td style="text-align: center;">6</td>
+			<td style="text-align: center;">62</td>
+			<td style="text-align: center;"><span>&nbsp;</span>5</td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;">7</td>
+			<td style="text-align: center;">67</td>
+			<td style="text-align: center;">7</td>
+			<td style="text-align: center;">67</td>
+			<td style="text-align: center;">0</td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;">8</td>
+			<td style="text-align: center;">71</td>
+			<td style="text-align: center;">8</td>
+			<td style="text-align: center;">63</td>
+			<td style="text-align: center;">8</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p>(Round all answers to one decimal place.)</p>
+
+<table border="1" cellpadding="1" cellspacing="1" height="225" width="410">
+	<tbody>
+		<tr>
+			<td>&nbsp;Mean Husband Height</td>
+			<td><span>&nbsp;</span>____________<span>&nbsp;</span></td>
+		</tr>
+		<tr>
+			<td>&nbsp;Standard Deviation of Husbands'&nbsp; &nbsp;Heights</td>
+			<td><span>&nbsp;</span>____________<span>&nbsp;</span></td>
+		</tr>
+		<tr>
+			<td>&nbsp;Mean Wife Height</td>
+			<td><span>&nbsp;</span>____________<span>&nbsp;</span></td>
+		</tr>
+		<tr>
+			<td>&nbsp;Standard Deviation of Wives' Heights</td>
+			<td><span>&nbsp;</span>____________<span>&nbsp;</span></td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p>As shown by looking at the mean heights,&nbsp;</p>
+
+<table>
+<tbody><tr>
+<td width="40"></td><td><b>(a)</b></td><td><p>husbands are generally taller than wives</p>
+</td></tr>
+<tr>
+<td width="40"></td><td><b>(b)</b></td><td><p>wives are generally taller than husbands</p>
+</td></tr>
+</tbody></table>
+
+
+<p>&nbsp;</p>
+
+<p>In fact, on average, husbands are</p>
+
+<p>____________&nbsp;inches taller than their wives.</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+<br><br></td></tr>
+<tr><td><div style="height: 200; border-left: thin solid #000000;"></div></td></tr>
+<tr><td><hr></td></tr>
+<tr><td valign="top"><br><b>Question 11: (1 point)</b><br><br>
+<p>Mean, median, or mode?</p>
+
+<p>Which would be the most appropriate for summarizing the typical number of hours the students below studied for an exam?</p>
+
+<table>
+<tbody><tr>
+<td width="40"></td><td><b>(a)</b></td><td><p>The median because most of the values are similar, but there are a few values that are much higher than the rest.</p></td></tr>
+<tr>
+<td width="40"></td><td><b>(b)</b></td><td><p>The mode because there are lots of repeated values.</p></td></tr>
+<tr>
+<td width="40"></td><td><b>(c)</b></td><td><p>The mean because all of the values are very similar.</p></td></tr>
+</tbody></table>
+
+
+<p><span>&nbsp;</span></p>
+
+<table border="1" cellpadding="0" cellspacing="0" width="128">
+	<thead>
+		<tr height="21">
+			<th height="21" scope="col" style="text-align: center;" width="64">Student</th>
+			<th scope="col" style="text-align: center;" width="64">Hours of Study</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr height="20">
+			<td height="20" style="text-align: center;" width="64">1</td>
+			<td style="text-align: center;" width="64">0</td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;" width="64">2</td>
+			<td style="text-align: center;" width="64">3</td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;" width="64">3</td>
+			<td style="text-align: center;" width="64">3</td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;" width="64">4</td>
+			<td style="text-align: center;" width="64">5</td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;" width="64">5</td>
+			<td style="text-align: center;" width="64">3</td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;" width="64">6</td>
+			<td style="text-align: center;" width="64">5</td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;" width="64">7</td>
+			<td style="text-align: center;" width="64">1</td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;" width="64">8</td>
+			<td style="text-align: center;" width="64">4</td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;" width="64">9</td>
+			<td style="text-align: center;" width="64">2</td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;" width="64">10</td>
+			<td style="text-align: center;" width="64">3</td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;" width="64">11</td>
+			<td style="text-align: center;" width="64">4</td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;" width="64">12</td>
+			<td style="text-align: center;" width="64">6</td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;" width="64">13</td>
+			<td style="text-align: center;" width="64">2</td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;" width="64">14</td>
+			<td style="text-align: center;" width="64">7</td>
+		</tr>
+		<tr height="20">
+			<td height="20" style="text-align: center;" width="64">15</td>
+			<td style="text-align: center;" width="64">3</td>
+		</tr>
+	</tbody>
+</table><br><br></td></tr>
+<tr><td><div style="height: 200; border-left: thin solid #000000;"></div></td></tr>
+<tr><td><hr></td></tr>
+<tr><td valign="top"><br><b>Question 12: (1 point)</b><br><br>
+<p>Identify which&nbsp;measure of center is most useful for describing the center of the data in the applications below.</p>
+
+<p>&nbsp;</p>
+
+<p>The salary of professional baseball players. Most players have relatively small salaries. A few players have very high salaries.&nbsp;</p>
+
+<p>Mean</p>
+[&nbsp;&nbsp;]&nbsp;&nbsp;<p>Median</p>
+[&nbsp;&nbsp;]&nbsp;&nbsp;<p>Mode</p>
+[&nbsp;&nbsp;]&nbsp;&nbsp;
+
+<p>&nbsp;</p>
+
+<p>The dosages of a medication prescribed by doctors where they&nbsp;prescribe 1 pill daily, 2 pills daily, or 3 pills daily.</p>
+
+<p>Mean</p>
+[&nbsp;&nbsp;]&nbsp;&nbsp;<p>Median</p>
+[&nbsp;&nbsp;]&nbsp;&nbsp;<p>Mode</p>
+[&nbsp;&nbsp;]&nbsp;&nbsp;
+
+<p>&nbsp;</p>
+
+<p>The price of a particular make and model of used cars. Most listing prices are around the same price with a few priced higher and a few priced lower than the other prices.</p>
+
+<p>Mean</p>
+[&nbsp;&nbsp;]&nbsp;&nbsp;<p>Median</p>
+[&nbsp;&nbsp;]&nbsp;&nbsp;<p>Mode</p>
+[&nbsp;&nbsp;]&nbsp;&nbsp;
+<br><br></td></tr>
+<tr><td><div style="height: 200; border-left: thin solid #000000;"></div></td></tr>
+<tr><td><hr></td></tr>
+<tr><td valign="top"><br><b>Question 13: (1 point)</b><br><br>
+<p><img alt="Quantitative Reasoning Model " src="./Brigham Young University - Idaho -_files/QRProcess.png" style="width: 350px; height: 83px;"></p>
+
+<p>&nbsp;</p>
+
+<p>Joe has two routes he can drive to work.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="Step 1: Understand the Problem" src="./Brigham Young University - Idaho -_files/Step1.png" style="width: 350px; height: 38px;"></p>
+
+<p>He wants to learn which route is the fastest.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="Step 2: Identify Variables and Assumptions" src="./Brigham Young University - Idaho -_files/Step2.png" style="width: 350px; height: 38px;"></p>
+
+<p>The time to drive each route varies a little every day.</p>
+
+<p>Joe assumes that each route will be open and safe to drive.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="Step 3: Apply Quantitative Tools" src="./Brigham Young University - Idaho -_files/Step3.png" style="width: 350px; height: 38px;"></p>
+
+<p>Over the next two weeks Joe alternated driving the two routes. He timed the length of his drive on each route.</p>
+
+<p>He calculated the mean and standard deviation of the times for both routes.</p>
+
+<table border="1" cellpadding="0" cellspacing="0" style="width:390px;" width="390">
+	<thead>
+		<tr>
+			<th scope="row" style="width: 168px; height: 21px;">
+			<p align="center">&nbsp;</p>
+			</th>
+			<th scope="col" style="width: 108px; height: 21px;">
+			<p align="center">Route 1</p>
+			</th>
+			<th scope="col" style="width: 114px; height: 21px;">
+			<p align="center">Route 2</p>
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th scope="row" style="width: 168px; height: 24px;">
+			<p align="center">Mean</p>
+			</th>
+			<td style="width:108px;height:24px;">
+			<p align="center">25.2 minutes</p>
+			</td>
+			<td style="width:114px;height:24px;">
+			<p align="center">25.8 minutes</p>
+			</td>
+		</tr>
+		<tr>
+			<th scope="row" style="width: 168px; height: 18px;">
+			<p align="center">Standard Deviation</p>
+			</th>
+			<td style="width:108px;height:18px;">
+			<p style="text-align: center;">1.8 minutes</p>
+			</td>
+			<td style="width:114px;height:18px;">
+			<p align="center">8.9 minutes</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p><img alt="Step 4: Make an Informed Decision" src="./Brigham Young University - Idaho -_files/Step4.png" style="width: 350px; height: 38px;"></p>
+
+<p>Which route has the possibility of a very short amount of time to drive to work?<span>&nbsp;</span></p>
+
+<p>Route 1</p>[&nbsp;&nbsp;]&nbsp;&nbsp;<p>Route 2</p>[&nbsp;&nbsp;]&nbsp;&nbsp;
+
+<p>Which route results in the most consistent times?</p>
+
+<p>Route 1</p>[&nbsp;&nbsp;]&nbsp;&nbsp;<p>Route 2</p>[&nbsp;&nbsp;]&nbsp;&nbsp;
+
+<p><span>&nbsp;</span>Which route is more likely to take a very long time on occasion?&nbsp;</p>
+
+<p>Route 1</p>[&nbsp;&nbsp;]&nbsp;&nbsp;<p>Route 2</p>[&nbsp;&nbsp;]&nbsp;&nbsp;
+
+<p><span>Which route (1 or 2) do you think Joe should choose?</span></p>
+
+<p><span><span>Route&nbsp;&nbsp;</span>____________<span>&nbsp;</span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span><img alt="Step 5: Evaluate Your Reasoning" src="./Brigham Young University - Idaho -_files/Step5.png" style="width: 350px; height: 38px;"></span></p>
+
+<p>Under which of the following circumstances should Joe re-evaluate his decision? (Mark all that apply)</p>
+
+<table>
+<tbody><tr>
+<td width="40"></td><td><b>(a)</b></td><td><p>The installation of traffic lights on the route he has chosen.</p></td></tr>
+<tr>
+<td width="40"></td><td><b>(b)</b></td><td><p>The number of vehicles on the routes change.</p></td></tr>
+<tr>
+<td width="40"></td><td><b>(c)</b></td><td><p>Joe changes job locations.</p></td></tr>
+<tr>
+<td width="40"></td><td><b>(d)</b></td><td><p>Road construction on the route he has chosen.</p></td></tr>
+</tbody></table>
+
+
+<p><span>&nbsp;</span></p>
+<br><br></td></tr>
+<tr><td><div style="height: 200; border-left: thin solid #000000;"></div></td></tr>
+<tr><td><hr></td></tr>
+<tr><td valign="top"><br><b>Question 14: (1 point)</b><br><br>
+<p>The following numbers describe the length&nbsp;of time 50 students took to complete a particular exam.</p>
+
+<p>&nbsp;</p>
+
+<p>Minimum = 34 minutes</p>
+
+<p>Median = 52 minutes</p>
+
+<p>Mean = 61 minutes</p>
+
+<p>Maximum = 125 minutes</p>
+
+<p>&nbsp;</p>
+
+<p>Semara took 52 minutes to complete his exam. What percent of students took longer than Semara to complete their exam?</p>
+
+<p>____________<span>&nbsp;</span>%</p>
+<br><br></td></tr>
+<tr><td><div style="height: 200; border-left: thin solid #000000;"></div></td></tr>
+<tr><td><hr></td></tr>
+<tr><td valign="top"><br><b>Question 15: (1 point)</b><br><br>
+<p>Suppose a student scored in the 30<span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-3-Frame" tabindex="0" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mrow&gt;&lt;mi mathvariant=&quot;italic&quot;&gt;th&lt;/mi&gt;&lt;/mrow&gt;&lt;/math&gt;" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-9" style="width: 1.184em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.976em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.184em, 1000.98em, 2.295em, -999.997em); top: -2.08em; left: 0em;"><span class="mrow" id="MathJax-Span-10"><span class="mrow" id="MathJax-Span-11"><span class="mi" id="MathJax-Span-12" style="font-family: MathJax_Math-italic;">th</span></span></span><span style="display: inline-block; width: 0px; height: 2.087em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.079em; border-left: 0px solid; width: 0px; height: 1.004em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi mathvariant="italic">th</mi></mrow></math></span></span><script type="math/mml" id="MathJax-Element-3"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow> <mi mathvariant="italic">th</mi> </mrow></math></script>&nbsp;percentile on a standardized test. What percent of students had a higher score on the test than this student?</p>
+
+<p>____________<span>&nbsp;</span>%</p><br><br></td></tr>
+<tr><td><div style="height: 200; border-left: thin solid #000000;"></div></td></tr>
+<tr><td><hr></td></tr>
+<tr><td valign="top"><br><b>Question 16: (1 point)</b><br><br>
+<p>Suppose that a particular school only admits students that score above the 60th percentile on an entrance exam.</p>
+
+<p>This means that (select all that apply)<span>&nbsp;</span></p>
+
+<table>
+<tbody><tr>
+<td width="40"></td><td><b>(a)</b></td><td><p>They will only admit the students who score above a 60% on the exam.</p></td></tr>
+<tr>
+<td width="40"></td><td><b>(b)</b></td><td><p>They will only admit the students who score above a 40% on the exam.</p></td></tr>
+<tr>
+<td width="40"></td><td><b>(c)</b></td><td><p>They will always admit the students with the highest scores, no matter how low their scores actually are on the exam.</p></td></tr>
+<tr>
+<td width="40"></td><td><b>(d)</b></td><td><p>They may not admit any students in a given year if no one scores above the cut-off.</p></td></tr>
+<tr>
+<td width="40"></td><td><b>(e)</b></td><td><p>They will only admit 60% of students who take the entrance exam.</p></td></tr>
+<tr>
+<td width="40"></td><td><b>(f)</b></td><td><p>They will only admit 40% of students who take the entrance exam.</p></td></tr>
+</tbody></table>
+
+
+<p><span>&nbsp;</span></p><br><br></td></tr>
+<tr><td><div style="height: 200; border-left: thin solid #000000;"></div></td></tr>
+<tr><td><hr></td></tr>
+
+</tbody></table>
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="customFooter">
+  
+</div>
+
+<div id="buildDate">
+	Build Number : 010b9e1
+</div>
+
+  
+  
+
+<iframe src="javascript:&quot;&quot;" id="mapleEquationEditor" tabindex="-1" style="position: absolute; width: 0px; height: 0px; border: none; left: -1000px; top: -1000px;" src="./Brigham Young University - Idaho -_files/saved_resource.html"></iframe><div style="position: absolute; width: 0px; height: 0px; overflow: hidden; padding: 0px; border: 0px; margin: 0px;"><div id="MathJax_Font_Test" style="position: absolute; visibility: hidden; top: 0px; left: 0px; width: auto; padding: 0px; border: 0px; margin: 0px; white-space: nowrap; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; font-size: 40px; font-weight: normal; font-style: normal; font-family: MathJax_Math-italic, sans-serif;"></div></div></body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+      div.grammarly-desktop-integration {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select:none;
+        user-select:none;
+      }
+
+      div.grammarly-desktop-integration:before {
+        content: attr(data-content);
+      }
+    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>
