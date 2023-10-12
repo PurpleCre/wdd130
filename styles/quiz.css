@@ -24,7 +24,7 @@ body {
     background-color: var(--secondary-color);
 }
 
-header {
+h1 {
     margin: 4px auto;
     width: 650px;
     font-family: var(--heading-font);
@@ -51,7 +51,7 @@ fieldset {
     border: 1px solid rgba(89, 1, 124, 0.2);
   }
 
-  label,
+label,
 input,
 button,
 select,
