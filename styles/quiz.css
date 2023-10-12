@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
+
+:root {
+    --primary-color: #c77dff;
+    --secondary-color: #240046;
+    --accent1-color: #e0aaff;
+    --accent2-color: #9e9eea;
+  
+    --heading-font: "Rock Salt", hand;
+    --paragraph-font: "Original Surfer", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    font-size: 0.9rem;
+    color: rgb(255, 136, 0);
+    background-color: var(--secondary-color);
+}
+
+header {
+    margin: 4px auto;
+    width: 650px;
+    font-family: var(--heading-font);
+    font-weight: 400;
+    text-align: center;
+    border-bottom: 1px solid var(--accent1-color);
+  }
+
+form {
+    width: 620px;
+    margin: 0 auto;
+    padding: 0.9rem;
+    border: 1px dashed var(--accent1-color);
+    border-radius: 0.5rem;
+    background: url(../images/backg.png);
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 0.2rem;
+    margin: 0.3rem;
+    padding: 0.4rem;
+    border: 1px solid rgba(89, 1, 124, 0.2);
+  }
+
+  label,
+input,
+button,
+select,
+textarea {
+  font-family: var(--paragraph-font);
+  font-size: 0.9rem;
+}
+
+label {
+    text-align: right;
+    padding-right: 5px;;
+  }
+
+  input,
+select,
+textarea {
+  padding: 0.2rem;
+  font-size: .8rem;
+}
+
+button {
+    margin: 0.3rem;
+    background-color: rgb(171, 20, 241);
+    color: rgb(255, 196, 0);
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+  }
+
+button:hover {
+    background-color: green
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 620px;
+    text-align: center;
+    font-size: .8rem;
+    color: rgb(255, 136, 0);
+    padding-top: 2px;
+    border-top: 1px dashed var(--accent2-color);
+    font-family: var(--paragraph-font)
+  }
+
+/*Class Selectors*/
+
+/* .form{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 2fr;
+} */
