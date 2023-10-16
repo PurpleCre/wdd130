@@ -102,6 +102,60 @@ footer div{
   justify-self: last baseline;
 }
 
+button {
+  margin: 0.3rem;
+  background-color: rgb(171, 20, 241);
+  color: rgb(255, 196, 0);
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: green
+}
+
+form {
+  width: 620px;
+  margin: 0 auto;
+  padding: 0.9rem;
+  margin-bottom: 20px;
+  border: 1px dashed var(--accent1-color);
+  border-radius: 0.5rem;
+  display: grid;
+}
+
+fieldset {
+  display: grid;
+  grid-gap: 0.2rem;
+  margin: 0.3rem;
+  padding: 0.4rem;
+  border: 1px solid rgba(89, 1, 124, 0.2);
+}
+
+fieldset p{
+  color: rgba(0, 0, 0, .5);
+}
+label,
+input,
+button,
+textarea {
+font-family: var(--paragraph-font);
+font-size: 0.9rem;
+}
+
+label {
+  text-align: right;
+  padding-right: 5px;;
+}
+
+input,
+textarea {
+padding: 0.2rem;
+font-size: .8rem;
+}
+
 /* Classes and IDs*/
 
 div.hero {
@@ -186,4 +240,102 @@ div.hero {
 #adventure img {
   width: 180px;
   height: auto;
+}
+
+/* Contact Page */
+
+div.contact {
+  position: relative;
+  padding-bottom: 160px;
+  background-color: var(--accent2-color);
+  text-align: center;
+}
+
+.contact h1{
+  position: inherit;
+  top: 40px;
+  max-width: 800px;
+  background-color: inherit;
+}
+
+.contact article{
+  position: inherit;
+  top: 60px;
+  background-color: inherit;
+}
+
+#sales {
+  position: absolute;
+  top: 320px;
+  left: 140px ;
+  padding: 0 5px 0 5px;
+  max-width: 286px;
+  max-height: 185px;
+  background-color: #ffff;
+  text-align: center;
+  border: var(--secondary-color) solid 1px;
+}
+
+#sales p {
+  padding-bottom: 23px;
+}
+
+#support {
+  position: absolute;
+  top: 320px;
+  left: 486px;
+  padding: 0 5px 10px 5px;
+  max-width: 286px;
+  max-height: 185px;
+  background-color: #ffff;
+  text-align: center;
+  border: var(--secondary-color) solid 1px;
+}
+
+#support button {
+  padding: 4px;
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: var(--secondary-color);
+  color: var(--accent2-color);
+}
+
+#hq {
+  display: grid;
+  position: relative;
+  padding-top: 160px;
+  max-width: 840px;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 10px;
+}
+
+#hq h1{
+  grid-row: 1/2;
+}
+
+#hq h3 {
+  grid-column: 1;
+}
+
+#hq article {
+  grid-column: 1;
+}
+
+.map  {
+  grid-column: 2;
+  grid-row: 1/4
+}
+
+#employees {
+  display: grid;
+  text-align: left;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items:start;
+  border: var(--accent2-color) dotted 2px;
+  margin: 4px;
+}
+
+#employees img{
+  max-width: 450px;
+  max-height: 400px;
 }
