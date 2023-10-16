@@ -104,7 +104,7 @@ footer div{
 
 button {
   margin: 0.3rem;
-  background-color: rgb(171, 20, 241);
+  background-color: var(--secondary-color);
   color: rgb(255, 196, 0);
   border: none;
   border-radius: 0.5rem;
@@ -135,8 +135,9 @@ fieldset {
 }
 
 fieldset p{
-  color: rgba(0, 0, 0, .5);
+  color: rgba(0, 0, 0, .8);
 }
+
 label,
 input,
 button,
@@ -297,7 +298,7 @@ div.contact {
   border: 1px solid;
   border-radius: 5px;
   background-color: var(--secondary-color);
-  color: var(--accent2-color);
+  color: rgb(255, 196, 0);
 }
 
 #hq {
