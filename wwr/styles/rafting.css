@@ -340,3 +340,270 @@ div.contact {
   max-width: 450px;
   max-height: 400px;
 }
+
+.trip h1 {
+  width: 250px;
+  top: 80px;
+  left: 30px;
+  background: none;
+	font-weight: bold;
+  word-spacing: 12px;
+  text-align: left;
+  text-decoration: underline;
+}
+
+.trip p {
+  position: absolute;
+  top: 150px;
+  left: 30px;
+  width: 149px;
+	height: 89px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.3;
+	text-align: center;
+}
+
+.trip button {
+  position: absolute;
+  top: 280px;
+  left: 50px;
+  width: 95px;
+	height: 49px;
+	padding: 0px 10px 0px 10px;
+	background: #FF3823;
+	border-color: var(--secondary-color) 1px solid;
+	border-radius: 10px 10px 10px 10px;
+	font-weight: 400;
+	font-size: 14px;
+	text-align: center;
+}
+
+.trip button:hover, .grid button:hover {
+  background-color: yellow;
+}
+
+.trip button a, .grid button a{
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+.trips  {
+  display: grid;
+  grid-gap: 2px ;
+  background-color: var(--accent2-color);
+}
+
+.trips h2 {
+  grid-row: 1/2 ;
+  text-decoration: underline;
+  text-align: center;
+  padding: 10px 0px 20px 0;
+}
+
+.trips p {
+  padding: 10px;
+  font-style: italic;
+}
+
+.trips h3 {
+  padding-left: 15px;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.trip1 {
+  grid-row: 2/3; 
+}
+
+.trip1 img, .trip3 img  {
+  float: left;
+  width: 470px;
+	height: 237px;
+  padding: 0px 15px 25px 5px;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.trip2 {
+  grid-row: 3/4; 
+}
+
+.trip2 img {
+  float: right;
+  width: 470px;
+	height: 237px;
+  padding: 0px 5px 25px 15px;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.grid {
+  padding-bottom: 60px;
+}
+
+.grid table{
+  position:relative;
+  top: 15px;
+  left: 95px;
+  width: 750px;
+	height: 332px;
+	border: #C0C0C0 solid 1px;
+}
+
+td {
+  border: var(--secondary-color) solid 2px;
+  padding-left: 5px;
+}
+
+.grid table tr:first-of-type {
+  background-color: var(--primary-color);
+}
+
+.grid button {
+  position: relative;
+  top: 40px;
+  left: 25rem;
+  width: 147px;
+	height: 34px;
+	padding: 0px 10px 0px 10px;
+	background: #FF3823;
+	border: var(--secondary-color) solid 1px;
+	border-radius: 10px 10px 10px 10px;
+	font-weight: 400;
+	font-size: 14px;
+	text-align: center;
+}
+
+.home img {
+  width: 100%;
+}
+
+.home p{
+  position: absolute;
+  top: 70px;
+  left: 40rem;
+  width: 240px;
+	color: black;
+	font-weight: 700;
+	font-size: 13px;
+	line-height: 1.5;
+	text-align: left;
+}
+
+.fancy {
+  position: relative;
+  width: 450px;
+	height: 486px;
+  clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
+	background: #E692F8;
+	border-color: #FF3823;
+	border-width: 1px;
+	border-style: solid;
+}
+
+.fancy form {
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  max-width: 250px;
+  border: var(--secondary-color) 1px dotted;
+}
+
+.fancy form label:last-of-type {
+  text-align: right;
+  padding: 15px 0 5px 0;
+
+}
+
+.fancy form input:last-of-type {
+  position: relative;
+  top: -20px;
+  left: -4.3rem;
+}
+
+.call {
+  position: absolute;
+  top: 580px;
+  left: 100px;
+}
+
+.call img {
+  position: relative;
+  width: 830px;
+	height: 307px;
+	background: #EDF0F4;
+	border-radius: 20px 20px 20px 20px;
+}
+
+.call article{
+  position: absolute;
+  left: 60px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.3;
+	text-align: left;
+  padding-bottom: 15px;
+}
+
+.call a {
+  color: var(--secondary-color);
+  text-align: center;
+  padding-left: 275px;
+}
+
+.solicit {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  gap: 15px;
+}
+
+
+.solicit img {
+  width: 404px;
+	height: 245px;
+	border-radius: 20px 20px 0 0;
+  padding-top: 15px;
+}
+
+.triangle {
+  transform: rotate(180deg);
+  width: 100%;
+  height: 910px;
+  margin-bottom: 15px;
+}
+
+.lone {
+  position: absolute;
+  top: 1335px;
+  width: 100%;
+  grid-column: 1/3;
+  align-items: center;
+  justify-items: center;
+  padding-left: 60px;
+}
+
+.triangled {
+  /* width: 100%; */
+  position: absolute;
+  top: 1625px;
+  padding-left: 40px;
+}
+
+.triangled article {
+  width: 400px;
+	height: 215px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.3;
+	text-align: left;
+}
+
+.triangled h3 {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.triangled figure {
+  padding-bottom: 15px;
+}
