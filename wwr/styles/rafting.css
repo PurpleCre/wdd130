@@ -366,11 +366,11 @@ div.contact {
   top: 150px;
   left: 30px;
   width: 149px;
-	height: 89px;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 1.3;
-	text-align: center;
+  height: 89px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.3;
+  text-align: center;
   color: #FF3823;
 }
 
@@ -379,14 +379,14 @@ div.contact {
   top: 280px;
   left: 50px;
   width: 95px;
-	height: 49px;
-	padding: 0px 10px 0px 10px;
-	background: #FF3823;
-	border-color: var(--secondary-color) 1px solid;
-	border-radius: 10px 10px 10px 10px;
-	font-weight: 400;
-	font-size: 14px;
-	text-align: center;
+  height: 49px;
+  padding: 0px 10px 0px 10px;
+  background: #FF3823;
+  border-color: var(--secondary-color) 1px solid;
+  border-radius: 10px 10px 10px 10px;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
 }
 
 .trip button:hover, .grid button:hover {
@@ -430,7 +430,7 @@ div.contact {
 .trip1 img, .trip3 img  {
   float: left;
   width: 470px;
-	height: 237px;
+  height: 237px;
   padding: 0px 15px 25px 5px;
   border-radius: 20px 20px 20px 20px;
 }
@@ -442,7 +442,7 @@ div.contact {
 .trip2 img {
   float: right;
   width: 470px;
-	height: 237px;
+  height: 237px;
   padding: 0px 5px 25px 15px;
   border-radius: 20px 20px 20px 20px;
 }
@@ -456,8 +456,8 @@ div.contact {
   top: 15px;
   left: 95px;
   width: 750px;
-	height: 332px;
-	border: #C0C0C0 solid 1px;
+  height: 332px;
+  border: #C0C0C0 solid 1px;
 }
 
 td {
@@ -474,14 +474,14 @@ td {
   top: 40px;
   left: 25rem;
   width: 147px;
-	height: 34px;
-	padding: 0px 10px 0px 10px;
-	background: #FF3823;
-	border: var(--secondary-color) solid 1px;
-	border-radius: 10px 10px 10px 10px;
-	font-weight: 400;
-	font-size: 14px;
-	text-align: center;
+  height: 34px;
+  padding: 0px 10px 0px 10px;
+  background: #FF3823;
+  border: var(--secondary-color) solid 1px;
+  border-radius: 10px 10px 10px 10px;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
 }
 
 .home img {
@@ -493,22 +493,22 @@ td {
   top: 90px;
   left: 40rem;
   width: 240px;
-	color: black;
-	font-weight: 700;
-	font-size: 13px;
-	line-height: 1.5;
-	text-align: left;
+  color: black;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.5;
+  text-align: left;
 }
 
 .fancy {
   position: relative;
   width: 450px;
-	height: 486px;
+  height: 486px;
   clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
-	background: #E692F8;
-	border-color: #FF3823;
-	border-width: 1px;
-	border-style: solid;
+  background: #E692F8;
+  border-color: #FF3823;
+  border-width: 1px;
+  border-style: solid;
 }
 
 .fancy form {
@@ -540,18 +540,18 @@ td {
 .call img {
   position: relative;
   width: 830px;
-	height: 306px;
-	background: #EDF0F4;
-	border-radius: 20px 20px 20px 20px;
+  height: 306px;
+  background: #EDF0F4;
+  border-radius: 20px 20px 20px 20px;
 }
 
 .call article{
   position: absolute;
   left: 60px;
-	font-weight: 400;
-	font-size: 14px;
-	line-height: 1.3;
-	text-align: left;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.3;
+  text-align: left;
   padding-bottom: 15px;
 }
 
@@ -571,8 +571,8 @@ td {
 
 .solicit img {
   width: 404px;
-	height: 245px;
-	border-radius: 20px 20px 0 0;
+  height: 245px;
+  border-radius: 20px 20px 0 0;
   padding-top: 15px;
 }
 
@@ -602,11 +602,11 @@ td {
 
 .triangled article {
   width: 400px;
-	height: 215px;
-	font-weight: 400;
-	font-size: 14px;
-	line-height: 1.3;
-	text-align: left;
+  height: 215px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.3;
+  text-align: left;
 }
 
 .triangled h3 {
