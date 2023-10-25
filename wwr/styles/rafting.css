@@ -77,6 +77,10 @@ p {
   color: #05000a;
 }
 
+ul {
+  padding-left: 1.5rem;
+}
+
 figure {
   display: grid;
   align-self: baseline;
@@ -402,13 +406,15 @@ div.contact {
   display: grid;
   grid-gap: 2px ;
   background-color: var(--accent2-color);
+  margin: 15px 0 15px 0;
+  width: 530px;
 }
 
 .trips h2 {
   grid-row: 1/2 ;
   text-decoration: underline;
-  text-align: center;
-  padding: 10px 0px 20px 0;
+  text-align: left;
+  padding: 10px 0px 20px 10px;
 }
 
 .trips p {
@@ -423,41 +429,36 @@ div.contact {
   font-weight: bold;
 }
 
-.trip1 {
-  grid-row: 2/3; 
+.trips img {
+  float: left;
+  width: 30em;
+  height: 237px;
+  padding: 0px 5px 25px 25px;
+  border-radius: 20px 20px 20px 20px;
 }
 
-.trip1 img, .trip3 img  {
-  float: left;
-  width: 470px;
-  height: 237px;
-  padding: 0px 15px 25px 5px;
-  border-radius: 20px 20px 20px 20px;
+.trip1 {
+  grid-row: 2/3; 
 }
 
 .trip2 {
   grid-row: 3/4; 
 }
 
-.trip2 img {
-  float: right;
-  width: 470px;
-  height: 237px;
-  padding: 0px 5px 25px 15px;
-  border-radius: 20px 20px 20px 20px;
-}
-
 .grid {
-  padding-bottom: 60px;
+  position: absolute;
+  top: 620px;
+  left: 540px;
+  padding-bottom: 40px;
+  background-color: var(--secondary-color);
+  border: #C0C0C0 solid 1px;
+
 }
 
 .grid table{
-  position:relative;
-  top: 15px;
-  left: 95px;
-  width: 750px;
+  width: 400px;
   height: 332px;
-  border: #C0C0C0 solid 1px;
+  color: #FF3823;
 }
 
 td {
@@ -471,8 +472,8 @@ td {
 
 .grid button {
   position: relative;
-  top: 40px;
-  left: 25rem;
+  top: 30px;
+  left: 8rem;
   width: 147px;
   height: 34px;
   padding: 0px 10px 0px 10px;
@@ -556,9 +557,14 @@ td {
 }
 
 .call a {
-  color: var(--secondary-color);
+  color:rgb(255, 196, 0);
+  text-decoration: none;
   text-align: center;
-  padding-left: 275px;
+}
+
+.call button {
+  position: relative;
+  left: 13rem;
 }
 
 .solicit {
