@@ -386,7 +386,7 @@ div.contact {
   height: 49px;
   padding: 0px 10px 0px 10px;
   background: #FF3823;
-  border-color: var(--secondary-color) 1px solid;
+  border: var(--secondary-color) 1px solid;
   border-radius: 10px 10px 10px 10px;
   font-weight: 400;
   font-size: 14px;
